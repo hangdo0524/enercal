@@ -124,10 +124,10 @@ export function DailyView({ profile, date }: DailyViewProps) {
           </div>
         ) : (
           <div className="overflow-x-auto">
-            <table className="w-full min-w-[700px]">
-              <thead className="bg-slate-50 sticky top-0">
+            <table className="w-full min-w-[700px] border-separate border-spacing-0">
+              <thead className="bg-slate-50 sticky top-0 z-20">
                 <tr>
-                  <th className="text-left text-xs md:text-sm text-slate-600 font-bold py-2 md:py-3 px-2 md:px-3 border-b border-slate-200 w-[90px] md:w-[120px]">
+                  <th className="text-left text-xs md:text-sm text-slate-600 font-bold py-2 md:py-3 px-2 md:px-3 border-b border-slate-200 w-[90px] md:w-[120px] sticky left-0 bg-slate-50 z-10">
                     Giờ
                   </th>
                   {tasks.map((task) => {
@@ -152,7 +152,7 @@ export function DailyView({ profile, date }: DailyViewProps) {
                       key={slot.timeSlot}
                       className={`${hasGood ? "bg-green-50/50" : ""} ${isBestHour ? "ring-2 ring-inset ring-energy-purple" : ""}`}
                     >
-                      <td className="py-1.5 md:py-2 px-2 md:px-3 border-b border-slate-100">
+                      <td className={`py-1.5 md:py-2 px-2 md:px-3 border-b border-slate-100 sticky left-0 z-10 ${hasGood ? "bg-green-50" : "bg-white"} ${isBestHour ? "bg-energy-purple/10" : ""}`}>
                         <span
                           className={`inline-block px-1.5 md:px-2 py-0.5 rounded-full text-[10px] md:text-xs font-semibold ${
                             isBestHour
