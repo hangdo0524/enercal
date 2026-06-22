@@ -5,8 +5,6 @@ import type {
   ProcessedDayData,
   ProcessedHourlySlot,
   EnergyCell,
-  EnergyTask,
-  TimeSlot,
 } from "../types";
 import { ENERGY_TASKS, TIME_SLOTS } from "../types";
 import energyData from "./energyData.json";
