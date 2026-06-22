@@ -68,19 +68,12 @@ export function CalendarView({
       );
     }
 
-    // Find best energy cell across all time slots
-    const bestEnergy = dayData.hourlyGrid
-      .flatMap((slot) => slot.energies)
-      .reduce(
-        (best, curr) => (curr.finalPct > best.finalPct ? curr : best),
-        { task: "", dailyPct: 0, hourlyVal: 0, finalPct: 0 }
-      );
-
-    const hasGoodEnergy = bestEnergy.finalPct >= 46;
+    // Use the main task's best energy (already calculated)
+    const hasGoodEnergy = dayData.topPct >= 46;
     const borderClass = hasGoodEnergy
-      ? getEnergyBorderClass(bestEnergy.finalPct)
+      ? getEnergyBorderClass(dayData.topPct)
       : "border-slate-200";
-    const bgClass = hasGoodEnergy ? getEnergyBgClass(bestEnergy.finalPct) : "";
+    const bgClass = hasGoodEnergy ? getEnergyBgClass(dayData.topPct) : "";
 
     return (
       <div
@@ -104,8 +97,7 @@ export function CalendarView({
           <div
             className={`text-[10px] md:text-xs px-1 md:px-1.5 py-0.5 rounded font-semibold truncate ${bgClass}`}
           >
-            <span className="hidden sm:inline">{bestEnergy.task} </span>
-            {bestEnergy.finalPct}%
+            {dayData.topPct}%
           </div>
         )}
       </div>

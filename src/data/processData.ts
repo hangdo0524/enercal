@@ -16,43 +16,47 @@ export function processRawProfile(profile: RawProfile): ProcessedProfile {
     const dailyValues = dayData.dailyValues;
     const hourlyGridRaw = dayData.hourlyGrid;
 
-    // Find main task based on highest DAILY value (not final)
-    let mainTask = dayData.mainTheme || "";
-    if (!mainTask) {
-      let maxDailyPct = 0;
-      for (const task of ENERGY_TASKS) {
-        const val = dailyValues[task] ?? 0;
-        if (val > maxDailyPct) {
-          maxDailyPct = val;
-          mainTask = `Ngày ${task}`;
-        }
+    // Step 1: Find main task based on highest DAILY value
+    let mainTaskName = "";
+    let mainTaskDailyPct = 0;
+    for (const task of ENERGY_TASKS) {
+      const dailyPct = dailyValues[task] ?? 0;
+      if (dailyPct > mainTaskDailyPct) {
+        mainTaskDailyPct = dailyPct;
+        mainTaskName = task;
       }
     }
 
-    // Process hourly grid and find topPct (highest FINAL = daily + hourly)
-    let topPct = 0;
+    // Step 2: Process hourly grid
     const processedHourlyGrid: ProcessedHourlySlot[] = TIME_SLOTS.map(
       (timeSlot, slotIndex) => {
         const energies: EnergyCell[] = ENERGY_TASKS.map((task) => {
           const dailyPct = dailyValues[task] ?? 0;
           const hourlyVal = hourlyGridRaw[task]?.[slotIndex] ?? 0;
           const finalPct = dailyPct + hourlyVal;
-
-          if (finalPct > topPct) {
-            topPct = finalPct;
-          }
-
           return { task, dailyPct, hourlyVal, finalPct };
         });
-
         return { timeSlot, energies };
       }
     );
 
+    // Step 3: Find best hour for the main task (highest final % for that task)
+    let bestHourForMainTask = "";
+    let bestFinalPctForMainTask = 0;
+    for (const slot of processedHourlyGrid) {
+      const mainTaskEnergy = slot.energies.find((e) => e.task === mainTaskName);
+      if (mainTaskEnergy && mainTaskEnergy.finalPct > bestFinalPctForMainTask) {
+        bestFinalPctForMainTask = mainTaskEnergy.finalPct;
+        bestHourForMainTask = slot.timeSlot;
+      }
+    }
+
     processedDays[dateStr] = {
       date: dateStr,
-      mainTask,
-      topPct,
+      mainTask: `Ngày ${mainTaskName}`,
+      mainTaskDailyPct,
+      bestHour: bestHourForMainTask,
+      topPct: bestFinalPctForMainTask,
       hourlyGrid: processedHourlyGrid,
     };
   }

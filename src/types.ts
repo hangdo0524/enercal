@@ -66,6 +66,8 @@ export interface ProcessedHourlySlot {
 export interface ProcessedDayData {
   date: string;
   mainTask: string;
+  mainTaskDailyPct: number;
+  bestHour: string;
   topPct: number;
   hourlyGrid: ProcessedHourlySlot[];
 }
