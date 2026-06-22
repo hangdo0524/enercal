@@ -1,0 +1,1140 @@
+{
+  "metadata": {
+    "createdAt": "2026-06-22",
+    "version": "3.0",
+    "phuongPhapTinh": "Thần số học Pythagoras",
+    "giaiThichThuatNgu": {
+      "cacSoCotLoi": {
+        "soChủDao": {
+          "tenKhac": "Con đường đời",
+          "cachTinh": "Cộng tất cả các chữ số trong ngày sinh đầy đủ (ngày + tháng + năm), rút gọn về 1 chữ số",
+          "yNghia": "Số QUAN TRỌNG NHẤT - Phản ánh sứ mệnh cuộc đời, bài học cần học, con đường định mệnh",
+          "viDu": "Sinh 08/06/1984: 0+8+0+6+1+9+8+4 = 36 → 3+6 = 9"
+        },
+        "soBieuDat": {
+          "tenKhac": "Số Định Mệnh",
+          "cachTinh": "Cộng giá trị TẤT CẢ các chữ cái trong họ tên đầy đủ (A=1, B=2... Z=26, rút gọn)",
+          "yNghia": "Tiềm năng bẩm sinh, tài năng tự nhiên, CÁCH BẠN THỂ HIỆN ra thế giới",
+          "viDu": "Lê Xuân Xuyến: L+E+X+U+A+N+X+U+Y+E+N = 49 → 4+9 = 13 → 4"
+        },
+        "soLinhHon": {
+          "tenKhac": "Số Khao Khát",
+          "cachTinh": "Cộng giá trị các NGUYÊN ÂM (A, E, I, O, U) trong họ tên",
+          "yNghia": "KHAO KHÁT SÂU XA bên trong, điều thực sự muốn, động lực ẩn giấu",
+          "viDu": "Lê Xuân Xuyến: E+U+A+U+E = 17 → 8"
+        },
+        "soNgaySinh": {
+          "tenKhac": "Số Tài Năng",
+          "cachTinh": "Chỉ lấy NGÀY sinh (1-31), rút gọn nếu > 9",
+          "yNghia": "TÀI NĂNG BẨM SINH, năng khiếu tự nhiên, điểm mạnh dễ phát huy",
+          "viDu": "Sinh ngày 22 → giữ nguyên 22 (Số Chủ) hoặc rút gọn 2+2 = 4"
+        },
+        "soNhanCach": {
+          "tenKhac": "Số Ấn Tượng",
+          "cachTinh": "Cộng giá trị các PHỤ ÂM (tất cả trừ A, E, I, O, U) trong họ tên",
+          "yNghia": "Cách NGƯỜI KHÁC nhìn bạn, ấn tượng đầu tiên, 'vỏ bọc' bên ngoài",
+          "viDu": "Lê Xuân Xuyến: L+X+N+X+Y+N = 32 → 5"
+        },
+        "soTruongThanh": {
+          "tenKhac": "Số Chín Muồi",
+          "cachTinh": "Số Chủ Đạo + Số Biểu Đạt",
+          "yNghia": "Mục tiêu cuộc đời, hướng phát triển sau tuổi 35-40, 'đích đến' của đời người",
+          "viDu": "Số Chủ Đạo 9 + Số Biểu Đạt 4 = 13 → 4"
+        },
+        "soNamCaNhan": {
+          "tenKhac": "Chu kỳ năm",
+          "cachTinh": "Ngày sinh + Tháng sinh + Năm hiện tại (rút gọn)",
+          "yNghia": "CHỦ ĐỀ của năm đó, năng lượng chi phối, điều nên tập trung",
+          "chuKy": {
+            "nam1": "Khởi đầu mới, gieo hạt, độc lập",
+            "nam2": "Hợp tác, kiên nhẫn, chờ đợi",
+            "nam3": "Sáng tạo, biểu đạt, mở rộng",
+            "nam4": "Xây dựng nền móng, kỷ luật, làm việc chăm chỉ",
+            "nam5": "Thay đổi, tự do, phiêu lưu",
+            "nam6": "Gia đình, trách nhiệm, yêu thương",
+            "nam7": "Nội tâm, nghiên cứu, tĩnh lặng",
+            "nam8": "Thành tựu, vật chất, quyền lực",
+            "nam9": "Hoàn thiện, buông bỏ, kết thúc chu kỳ"
+          }
+        },
+        "soThuThach": {
+          "tenKhac": "Số Bài Học",
+          "cachTinh": "Tính từ ngày sinh, tạo ra 4 số thử thách: (1) |Tháng - Ngày|, (2) |Ngày - Năm|, (3) |Số 1 - Số 2|, (4) |Tháng - Năm|",
+          "yNghia": "Những BÀI HỌC cần vượt qua trong đời, ĐIỂM YẾU cần khắc phục, THỬ THÁCH sẽ gặp",
+          "cacMuc": {
+            "thuThach1": "Ảnh hưởng ~tuổi trẻ (0-28)",
+            "thuThach2": "Ảnh hưởng ~tuổi trung niên (28-56)",
+            "thuThach3": "Thử thách CHÍNH, ảnh hưởng cả đời",
+            "thuThach4": "Thử thách NỀN TẢNG, bài học xuyên suốt"
+          },
+          "yNghiaCacSo": {
+            "so0": "Thử thách ở TẤT CẢ lĩnh vực HOẶC tự do chọn thử thách riêng - linh hoạt nhưng cũng mơ hồ",
+            "so1": "Học cách ĐỨNG LÊN một mình, tin vào bản thân, không phụ thuộc",
+            "so2": "Học cách HỢP TÁC, kiên nhẫn, nhạy cảm với người khác",
+            "so3": "Học cách BIỂU ĐẠT, không sợ bị phán xét, sáng tạo tự do",
+            "so4": "Học cách KỶ LUẬT, xây dựng nền móng, không lười biếng",
+            "so5": "Học cách THÍCH ỨNG thay đổi, không sợ rủi ro, tự do có trách nhiệm",
+            "so6": "Học cách TRÁCH NHIỆM, cân bằng cho đi và nhận lại, không kiểm soát",
+            "so7": "Học cách TIN TƯỞNG, không hoài nghi quá mức, chấp nhận không hoàn hảo",
+            "so8": "Học cách QUẢN LÝ vật chất, quyền lực, không tham lam hoặc sợ tiền"
+          }
+        },
+        "soThieu": {
+          "tenKhac": "Số Nghiệp, Số Khuyết",
+          "cachTinh": "Đếm các số (1-9) xuất hiện trong họ tên. Số KHÔNG xuất hiện = Số Thiếu",
+          "yNghia": "Năng lượng bị KHUYẾT trong tên → ĐIỂM YẾU bẩm sinh, bài học từ tiền kiếp (theo quan niệm), lĩnh vực cần BỔ SUNG trong đời này",
+          "yNghiaCacSo": {
+            "thieu1": "Thiếu sự ĐỘC LẬP, tự tin, dễ phụ thuộc người khác",
+            "thieu2": "Thiếu sự NHẠY CẢM, khó hợp tác, hay bỏ qua cảm xúc người khác",
+            "thieu3": "Thiếu sự BIỂU ĐẠT, khó diễn đạt cảm xúc, kìm nén sáng tạo",
+            "thieu4": "Thiếu sự KỶ LUẬT, khó xây dựng thói quen, dễ bỏ cuộc giữa chừng",
+            "thieu5": "Thiếu sự LINH HOẠT, sợ thay đổi, khó thích ứng",
+            "thieu6": "Thiếu sự TRÁCH NHIỆM với gia đình, khó cam kết, xa cách tình cảm",
+            "thieu7": "Thiếu sự SUY NGẪM, hời hợt, không tìm kiếm ý nghĩa sâu xa",
+            "thieu8": "Thiếu sự QUẢN LÝ tài chính, vật chất, dễ gặp khó khăn về tiền bạc",
+            "thieu9": "Thiếu sự THẤU HIỂU rộng, khó nhìn tổng quan, ích kỷ hơn"
+          }
+        }
+      },
+      "soChu": {
+        "giaiThich": "Số Chủ (11, 22, 33) là các số đặc biệt KHÔNG rút gọn",
+        "yNghia": "Mang năng lượng MẠNH gấp đôi + ÁP LỰC lớn, tiềm năng cao nhưng thử thách cũng cao",
+        "cacSoChu": {
+          "so11": "Bậc Thầy Trực Giác - Nhạy cảm cao, tâm linh, truyền cảm hứng",
+          "so22": "Bậc Thầy Xây Dựng - Xây dựng điều vĩ đại, thực tế hóa tầm nhìn lớn",
+          "so33": "Bậc Thầy Chữa Lành - Phụng sự, chữa lành, giáo dục"
+        }
+      },
+      "yNghiaChiTietCacSo": {
+        "moTa": "Ý nghĩa chi tiết của từng số từ 1-9 khi xuất hiện ở các vị trí khác nhau",
+        "so1": {
+          "tuKhoa": "Độc lập • Tiên phong • Lãnh đạo • Sáng tạo • Ý chí",
+          "banChat": "Năng lượng KHỞI ĐẦU và ĐỘC LẬP. Số 1 là người đi trước, không chờ đợi, không theo đám đông.",
+          "matTichCuc": ["Tự tin", "Quyết đoán", "Sáng tạo", "Tiên phong", "Độc lập tư duy", "Ý chí mạnh mẽ"],
+          "matTieuCuc": ["Cô đơn", "Cứng đầu", "Ích kỷ", "Không lắng nghe", "Thiếu kiên nhẫn", "Khó hợp tác"],
+          "khiLaSoChủDao": "Sứ mệnh là DẪN ĐẦU, tiên phong trong lĩnh vực của mình. Cần học cách lắng nghe người khác.",
+          "khiLaSoBieuDat": "Có tài năng lãnh đạo bẩm sinh, dễ nổi bật trong đám đông.",
+          "khiLaSoLinhHon": "Khao khát được ĐỘC LẬP, tự quyết định cuộc đời mình, không bị kiểm soát.",
+          "khiLaSoNgaySinh": "Năng khiếu khởi xướng, bắt đầu dự án mới, làm việc độc lập.",
+          "khiLaSoThuThach": "Bài học: Tin vào bản thân, đứng lên một mình, không sợ khác biệt.",
+          "khiLaSoThieu": "Thiếu tự tin, dễ phụ thuộc người khác, khó tự quyết định.",
+          "ngheThuHop": ["Khởi nghiệp", "Quản lý cấp cao", "Sáng tạo nội dung", "Phát minh", "Tư vấn độc lập"]
+        },
+        "so2": {
+          "tuKhoa": "Hợp tác • Nhạy cảm • Ngoại giao • Cân bằng • Hỗ trợ",
+          "banChat": "Năng lượng HỢP TÁC và HÀI HÒA. Số 2 là người kết nối, cầu nối giữa các bên.",
+          "matTichCuc": ["Nhạy cảm", "Kiên nhẫn", "Ngoại giao giỏi", "Hợp tác tốt", "Lắng nghe", "Trực giác mạnh"],
+          "matTieuCuc": ["Thiếu quyết đoán", "Dễ bị tổn thương", "Phụ thuộc", "Hay lo lắng", "Tránh xung đột", "Mất bản sắc"],
+          "khiLaSoChủDao": "Sứ mệnh là HỢP TÁC, làm cầu nối, hỗ trợ người khác thành công.",
+          "khiLaSoBieuDat": "Có tài ngoại giao, hòa giải, làm việc nhóm xuất sắc.",
+          "khiLaSoLinhHon": "Khao khát được YÊU THƯƠNG, có mối quan hệ hài hòa, không cô đơn.",
+          "khiLaSoNgaySinh": "Năng khiếu làm việc đôi, đối tác, hỗ trợ hậu trường.",
+          "khiLaSoThuThach": "Bài học: Kiên nhẫn chờ đợi, nhạy cảm với người khác, hợp tác thay vì độc hành.",
+          "khiLaSoThieu": "Khó hợp tác, hay bỏ qua cảm xúc người khác, thiếu kiên nhẫn.",
+          "ngheThuHop": ["Tư vấn", "Hỗ trợ khách hàng", "Trung gian", "Ngoại giao", "Tâm lý", "Làm việc nhóm"]
+        },
+        "so3": {
+          "tuKhoa": "Sáng tạo • Biểu đạt • Vui vẻ • Giao tiếp • Nghệ thuật",
+          "banChat": "Năng lượng BIỂU ĐẠT và SÁNG TẠO. Số 3 cần được nói, được thể hiện, được tạo ra.",
+          "matTichCuc": ["Sáng tạo", "Lạc quan", "Giao tiếp giỏi", "Hài hước", "Truyền cảm hứng", "Nghệ thuật"],
+          "matTieuCuc": ["Hời hợt", "Phân tán", "Hay phóng đại", "Thiếu kỷ luật", "Nói nhiều làm ít", "Sợ bị từ chối"],
+          "khiLaSoChủDao": "Sứ mệnh là SÁNG TẠO và TRUYỀN CẢM HỨNG cho người khác.",
+          "khiLaSoBieuDat": "Có tài giao tiếp, diễn đạt, nghệ thuật bẩm sinh.",
+          "khiLaSoLinhHon": "Khao khát được BIỂU ĐẠT, được lắng nghe, được ngưỡng mộ.",
+          "khiLaSoNgaySinh": "Năng khiếu viết, nói, biểu diễn, sáng tạo nội dung.",
+          "khiLaSoThuThach": "Bài học: Dám biểu đạt bản thân, không sợ bị phán xét, kết thúc những gì bắt đầu.",
+          "khiLaSoThieu": "Kìm nén cảm xúc, khó diễn đạt ý tưởng, thiếu sáng tạo.",
+          "ngheThuHop": ["Nghệ thuật", "Viết lách", "Marketing", "MC/Phát thanh viên", "Diễn xuất", "Thiết kế"]
+        },
+        "so4": {
+          "tuKhoa": "Kỷ luật • Ổn định • Xây dựng • Thực tế • Kiên nhẫn",
+          "banChat": "Năng lượng XÂY DỰNG và ỔN ĐỊNH. Số 4 là nền móng, là người làm việc chăm chỉ.",
+          "matTichCuc": ["Đáng tin cậy", "Kỷ luật", "Kiên nhẫn", "Thực tế", "Tổ chức giỏi", "Làm việc chăm chỉ"],
+          "matTieuCuc": ["Cứng nhắc", "Bảo thủ", "Hay lo lắng", "Chậm thích ứng", "Quá chi tiết", "Thiếu linh hoạt"],
+          "khiLaSoChủDao": "Sứ mệnh là XÂY DỰNG nền móng vững chắc, tạo ra điều bền vững.",
+          "khiLaSoBieuDat": "Có tài tổ chức, quản lý, xây dựng hệ thống.",
+          "khiLaSoLinhHon": "Khao khát sự ỔN ĐỊNH, an toàn, có nền tảng vững chắc.",
+          "khiLaSoNgaySinh": "Năng khiếu xây dựng, quản lý, tổ chức, làm việc chi tiết.",
+          "khiLaSoThuThach": "Bài học: Kỷ luật bản thân, xây dựng thói quen, không bỏ cuộc giữa chừng.",
+          "khiLaSoThieu": "Thiếu kỷ luật, khó xây dựng thói quen, dễ bỏ cuộc, mất phương hướng.",
+          "ngheThuHop": ["Kỹ sư", "Kiến trúc", "Kế toán", "Quản lý dự án", "Xây dựng", "Hệ thống IT"]
+        },
+        "so5": {
+          "tuKhoa": "Tự do • Thay đổi • Phiêu lưu • Linh hoạt • Đa dạng",
+          "banChat": "Năng lượng TỰ DO và THAY ĐỔI. Số 5 ghét bị gò bó, cần trải nghiệm đa dạng.",
+          "matTichCuc": ["Linh hoạt", "Thích ứng nhanh", "Đa tài", "Tò mò", "Yêu tự do", "Dũng cảm thay đổi"],
+          "matTieuCuc": ["Thiếu kiên nhẫn", "Khó cam kết", "Hay chán", "Liều lĩnh", "Thiếu trách nhiệm", "Phân tán"],
+          "khiLaSoChủDao": "Sứ mệnh là TRẢI NGHIỆM cuộc sống đa dạng, mang tự do đến cho người khác.",
+          "khiLaSoBieuDat": "Có tài thích ứng, giao tiếp đa dạng, làm việc với nhiều loại người.",
+          "khiLaSoLinhHon": "Khao khát TỰ DO, không bị gò bó, được trải nghiệm.",
+          "khiLaSoNgaySinh": "Năng khiếu bán hàng, marketing, du lịch, làm việc linh hoạt.",
+          "khiLaSoThuThach": "Bài học: Thích ứng thay đổi, không sợ rủi ro, tự do có trách nhiệm.",
+          "khiLaSoThieu": "Sợ thay đổi, khó thích ứng, bị kẹt trong vùng an toàn.",
+          "ngheThuHop": ["Bán hàng", "Marketing", "Du lịch", "Báo chí", "Freelance", "Khởi nghiệp liên tục"]
+        },
+        "so6": {
+          "tuKhoa": "Trách nhiệm • Gia đình • Yêu thương • Chăm sóc • Hài hòa",
+          "banChat": "Năng lượng YÊU THƯƠNG và TRÁCH NHIỆM. Số 6 là người chăm sóc, gánh vác.",
+          "matTichCuc": ["Yêu thương", "Có trách nhiệm", "Chăm sóc giỏi", "Trung thành", "Hài hòa", "Đáng tin cậy"],
+          "matTieuCuc": ["Hay lo lắng", "Kiểm soát", "Gánh vác quá nhiều", "Hy sinh bản thân", "Can thiệp", "Khó buông tay"],
+          "khiLaSoChủDao": "Sứ mệnh là CHĂM SÓC gia đình, cộng đồng, tạo môi trường hài hòa.",
+          "khiLaSoBieuDat": "Có tài chăm sóc, nuôi dưỡng, tạo không gian ấm áp.",
+          "khiLaSoLinhHon": "Khao khát được YÊU và ĐƯỢC YÊU, có gia đình hạnh phúc.",
+          "khiLaSoNgaySinh": "Năng khiếu chăm sóc, dạy dỗ, tư vấn, nội trợ, làm đẹp.",
+          "khiLaSoThuThach": "Bài học: Cân bằng cho đi và nhận, không kiểm soát, biết buông tay.",
+          "khiLaSoThieu": "Thiếu trách nhiệm gia đình, khó cam kết tình cảm, xa cách.",
+          "ngheThuHop": ["Giáo dục", "Y tế", "Tư vấn gia đình", "Chăm sóc khách hàng", "Nội thất", "Ẩm thực"]
+        },
+        "so7": {
+          "tuKhoa": "Trí tuệ • Nội tâm • Nghiên cứu • Tâm linh • Phân tích",
+          "banChat": "Năng lượng TRÍ TUỆ và TÂM LINH. Số 7 tìm kiếm chân lý, hiểu bản chất.",
+          "matTichCuc": ["Trí tuệ sâu", "Phân tích giỏi", "Trực giác mạnh", "Tìm kiếm chân lý", "Độc lập tư duy", "Tập trung"],
+          "matTieuCuc": ["Xa cách", "Hoài nghi", "Khó tin người", "Cô đơn", "Hay phân tích quá mức", "Bi quan"],
+          "khiLaSoChủDao": "Sứ mệnh là TÌM KIẾM CHÂN LÝ, chia sẻ trí tuệ với người khác.",
+          "khiLaSoBieuDat": "Có tài nghiên cứu, phân tích, giảng dạy, viết lách học thuật.",
+          "khiLaSoLinhHon": "Khao khát HIỂU SÂU bản chất, tìm ý nghĩa cuộc sống.",
+          "khiLaSoNgaySinh": "Năng khiếu nghiên cứu, phân tích dữ liệu, làm việc độc lập.",
+          "khiLaSoThuThach": "Bài học: Tin tưởng người khác, không hoài nghi quá mức, chấp nhận không hoàn hảo.",
+          "khiLaSoThieu": "Hời hợt, không suy ngẫm sâu, thiếu trực giác, bỏ qua tâm linh.",
+          "ngheThuHop": ["Nghiên cứu khoa học", "Triết học", "Tâm lý học", "IT/Data", "Viết sách", "Tư vấn chuyên sâu"]
+        },
+        "so8": {
+          "tuKhoa": "Quyền lực • Thành công • Vật chất • Quản lý • Tham vọng",
+          "banChat": "Năng lượng THÀNH TỰU và VẬT CHẤT. Số 8 muốn đạt được, quản lý, kiểm soát.",
+          "matTichCuc": ["Tham vọng", "Quyết đoán", "Quản lý giỏi", "Thực tế", "Có tầm nhìn kinh doanh", "Kiên trì"],
+          "matTieuCuc": ["Tham vọng quá mức", "Kiểm soát", "Coi trọng vật chất", "Ruthless", "Sợ thất bại", "Workaholic"],
+          "khiLaSoChủDao": "Sứ mệnh là THÀNH CÔNG và dùng quyền lực để giúp người khác.",
+          "khiLaSoBieuDat": "Có tài kinh doanh, quản lý, đàm phán, tài chính.",
+          "khiLaSoLinhHon": "Khao khát THÀNH CÔNG, được công nhận, có quyền lực.",
+          "khiLaSoNgaySinh": "Năng khiếu quản lý, kinh doanh, tài chính, bất động sản.",
+          "khiLaSoThuThach": "Bài học: Cân bằng vật chất và tinh thần, không tham lam, quản lý tiền bạc.",
+          "khiLaSoThieu": "Khó quản lý tiền bạc, thiếu tham vọng, sợ quyền lực.",
+          "ngheThuHop": ["Kinh doanh", "Tài chính", "Bất động sản", "Quản lý cấp cao", "Luật", "Đầu tư"]
+        },
+        "so9": {
+          "tuKhoa": "Hoàn thiện • Nhân đạo • Trí tuệ • Buông bỏ • Phụng sự",
+          "banChat": "Năng lượng HOÀN THIỆN và NHÂN ĐẠO. Số 9 kết thúc chu kỳ, cho đi, không bám víu.",
+          "matTichCuc": ["Thấu hiểu", "Rộng lượng", "Tầm nhìn xa", "Nhân đạo", "Sáng tạo", "Trí tuệ tổng hợp"],
+          "matTieuCuc": ["Xa cách cảm xúc", "Sống trong quá khứ", "Khó buông bỏ", "Mơ mộng", "Hay thất vọng", "Lý tưởng hóa"],
+          "khiLaSoChủDao": "Sứ mệnh là HOÀN THIỆN bản thân và GIÚP ĐỠ nhiều người.",
+          "khiLaSoBieuDat": "Có tài tổng hợp, nhìn bức tranh lớn, giảng dạy, hướng dẫn.",
+          "khiLaSoLinhHon": "Khao khát ĐÓNG GÓP cho nhân loại, để lại di sản.",
+          "khiLaSoNgaySinh": "Năng khiếu giảng dạy, hướng dẫn, nghệ thuật, từ thiện.",
+          "khiLaSoThuThach": "Bài học: Buông bỏ quá khứ, chấp nhận mất mát, cho đi không cầu nhận lại.",
+          "khiLaSoThieu": "Khó nhìn tổng quan, ích kỷ, thiếu tầm nhìn xa, không biết buông bỏ.",
+          "ngheThuHop": ["Giảng dạy", "Từ thiện", "Tư vấn", "Nghệ thuật", "Viết lách", "Phụng sự cộng đồng"]
+        }
+      }
+    }
+  },
+  "individuals": [
+    {
+      "id": "father",
+      "name": "Lê Xuân Xuyến",
+      "role": "Bố",
+      "birthDate": {
+        "official": "02/06/1985",
+        "actual": "08/06/1984",
+        "used": "08/06/1984"
+      },
+      "cacSoCotLoi": {
+        "theoNgaySinhThuc": {
+          "date": "08/06/1984",
+          "note": "Ngày sinh THỰC TẾ - phản ánh bản chất sâu xa, tiềm năng thật sự",
+          "soChủDao": {
+            "number": 9,
+            "congThuc": "0+8 + 0+6 + 1+9+8+4 = 8 + 6 + 22 = 36 → 9",
+            "soChuAnhHuong": "22 (Bậc Thầy Xây Dựng trong năm sinh)",
+            "yNghia": "Số 9 - Nhà nhân đạo, người hoàn thiện",
+            "dacDiem": {
+              "tichCuc": ["Trí tuệ sâu rộng", "Tầm nhìn xa", "Khả năng tổng hợp", "Thấu hiểu con người", "Hoàn thiện chu kỳ"],
+              "tieuCuc": ["Dễ trầm tư quá mức", "Hay sống trong quá khứ", "Khó buông bỏ", "Xa cách cảm xúc", "Mất kết nối thực tại"]
+            }
+          },
+          "soNgaySinh": {
+            "number": 8,
+            "yNghia": "Ngày sinh 8 - Năng lượng lãnh đạo, quản lý, vật chất",
+            "taiNang": "Khả năng tổ chức, quản lý tài chính, đạt thành tựu vật chất"
+          }
+        },
+        "theoNgayKhaiSinh": {
+          "date": "02/06/1985",
+          "note": "Ngày sinh KHAI SINH - phản ánh 'mặt nạ xã hội', cách người khác nhìn nhận",
+          "soChủDao": {
+            "number": 4,
+            "congThuc": "0+2 + 0+6 + 1+9+8+5 = 2 + 6 + 23 = 31 → 4",
+            "soChuAnhHuong": null,
+            "yNghia": "Số 4 - Người xây dựng, ổn định, thực tế, kỷ luật",
+            "dacDiem": {
+              "tichCuc": ["Chăm chỉ", "Đáng tin cậy", "Kiên nhẫn", "Thực tế", "Xây dựng nền móng vững chắc"],
+              "tieuCuc": ["Cứng nhắc", "Bảo thủ", "Khó thích ứng thay đổi", "Hay lo lắng", "Dễ sa vào chi tiết"]
+            }
+          },
+          "soNgaySinh": {
+            "number": 2,
+            "yNghia": "Ngày sinh 2 - Hợp tác, nhạy cảm, ngoại giao, cần đối tác",
+            "taiNang": "Khả năng lắng nghe, hòa giải, làm việc nhóm, hỗ trợ người khác"
+          }
+        },
+        "phanTichKetHop2NgaySinh": {
+          "tomTat": "HAI CON NGƯỜI TRONG MỘT",
+          "dienGiai": {
+            "benTrong": {
+              "cacSo": "Số Chủ Đạo 9 + Ngày Sinh 8",
+              "moTa": "Bên trong là người có tầm nhìn xa, triết lý, muốn để lại di sản (9). Có năng lượng lãnh đạo, quản lý mạnh mẽ (8). Cần SỨ MỆNH lớn để sống."
+            },
+            "benNgoai": {
+              "cacSo": "Số Chủ Đạo 4 + Ngày Sinh 2",
+              "moTa": "Bên ngoài thể hiện như người thực tế, xây dựng từng bước (4). Cần HỢP TÁC, không thích đứng một mình (2). Đây là cách xã hội nhìn anh."
+            },
+            "xungDot": {
+              "moTa": "XUNG ĐỘT NỘI TÂM: Bên trong muốn làm điều lớn lao (9+8) nhưng bên ngoài lại thể hiện cầu toàn, chậm rãi (4) và cần người khác (2).",
+              "hienTrang": "Hiện tại: Số 9 bên trong đang 'ngủ đông' vì không có sứ mệnh. Số 4 bên ngoài bị kẹt trong routine. Số 2 cần kết nối nhưng đang tự cô lập.",
+              "giaiPhap": "Cần: Tìm lại SỨ MỆNH (đánh thức số 9) + Xây dựng từng bước nhỏ (dùng số 4) + Kết nối với gia đình (đáp ứng số 2)"
+            }
+          }
+        },
+        "soBieuDat": {
+          "congThuc": "L(3)+E(5)+X(6)+U(3)+A(1)+N(5)+X(6)+U(3)+Y(7)+E(5)+N(5) = 49 → 13 → 4",
+          "number": 4,
+          "yNghia": "Số 4 - Người xây dựng, ổn định, thực tế",
+          "ghiChu": "Số Biểu Đạt từ TÊN = 4. Trùng với Số Chủ Đạo khai sinh → xã hội nhìn anh đúng như 'mặt nạ' anh đeo."
+        },
+        "soLinhHon": {
+          "congThuc": "E(5)+U(3)+A(1)+U(3)+E(5) = 17 → 8",
+          "number": 8,
+          "yNghia": "Khao khát thành công, được công nhận, quyền lực",
+          "ghiChu": "Số Linh Hồn 8 = khao khát sâu xa được CÔNG NHẬN. Hiện tại không được đáp ứng → trống rỗng."
+        },
+        "soNhanCach": {
+          "congThuc": "L(3)+X(6)+N(5)+X(6)+Y(7)+N(5) = 32 → 5",
+          "number": 5,
+          "yNghia": "Số 5 - Người khác thấy anh LINH HOẠT, thích tự do, hay thay đổi",
+          "ghiChu": "Ấn tượng bên ngoài là người năng động, không thích bị ràng buộc"
+        },
+        "soTruongThanh": {
+          "congThuc": "Số Chủ Đạo 9 + Số Biểu Đạt 4 = 13 → 4",
+          "number": 4,
+          "yNghia": "Số 4 - Đích đến cuộc đời là XÂY DỰNG điều gì đó BỀN VỮNG, để lại nền móng",
+          "ghiChu": "Sau 40 tuổi, năng lượng số 4 mạnh hơn → cần xây dựng hệ thống, tạo di sản thực tế"
+        },
+        "soNamCaNhan": {
+          "ghiChu": "Bố có 2 chu kỳ năm khác nhau do 2 ngày sinh. Nên tham khảo CẢ HAI để hiểu đầy đủ.",
+          "theoNgaySinhThuc": {
+            "note": "Theo ngày sinh thực (08/06/1984) - phản ánh năng lượng BÊN TRONG",
+            "2026": {"number": 6, "chuDe": "Gia đình & Trách nhiệm - Năm tập trung chữa lành các mối quan hệ, nhận trách nhiệm với gia đình"},
+            "2027": {"number": 7, "chuDe": "Nội tâm & Nghiên cứu - Năm tĩnh lặng, suy ngẫm, tìm kiếm ý nghĩa sâu xa"},
+            "2028": {"number": 8, "chuDe": "Thành tựu & Vật chất - Năm gặt hái, được công nhận, cải thiện tài chính"},
+            "2029": {"number": 9, "chuDe": "Hoàn thiện & Buông bỏ - Năm kết thúc chu kỳ, buông bỏ cái cũ"},
+            "2030": {"number": 1, "chuDe": "Khởi đầu mới - Chu kỳ 9 năm mới bắt đầu, gieo hạt cho tương lai"}
+          },
+          "theoNgayKhaiSinh": {
+            "note": "Theo ngày khai sinh (02/06/1985) - phản ánh năng lượng BÊN NGOÀI, xã hội",
+            "2026": {"number": 9, "chuDe": "Hoàn thiện & Buông bỏ - Năm KẾT THÚC chu kỳ cũ, dọn dẹp, buông bỏ điều không còn phục vụ"},
+            "2027": {"number": 1, "chuDe": "Khởi đầu mới - Năm KHỞI ĐẦU chu kỳ 9 năm mới, gieo hạt cho tương lai"},
+            "2028": {"number": 2, "chuDe": "Hợp tác & Kiên nhẫn - Năm chờ đợi hạt nảy mầm, xây dựng quan hệ"},
+            "2029": {"number": 3, "chuDe": "Sáng tạo & Biểu đạt - Năm mở rộng, thể hiện bản thân, vui vẻ"},
+            "2030": {"number": 4, "chuDe": "Xây dựng & Kỷ luật - Năm xây nền móng vững chắc, làm việc chăm chỉ"}
+          },
+          "ketHop": "Năm 2026: Bên trong cần tập trung GIA ĐÌNH (6), bên ngoài cần BUÔNG BỎ cái cũ (9). Năm 2027: Bên trong tìm NGHĨA SỐNG (7), bên ngoài KHỞI ĐẦU mới (1) → Đây là năm bản lề quan trọng!"
+        },
+        "soThuThach": {
+          "theoNgaySinhThuc": {
+            "date": "08/06/1984",
+            "congThuc": "Ngày=8, Tháng=6, Năm=1+9+8+4=22→4",
+            "thuThach1": {"number": 2, "congThuc": "|6-8|=2", "yNghia": "Học HỢP TÁC, kiên nhẫn, không tự làm một mình"},
+            "thuThach2": {"number": 4, "congThuc": "|8-4|=4", "yNghia": "Học KỶ LUẬT, xây nền móng, không bỏ cuộc"},
+            "thuThach3": {"number": 2, "congThuc": "|2-4|=2", "yNghia": "Thử thách CHÍNH: HỢP TÁC và KIÊN NHẪN"},
+            "thuThach4": {"number": 2, "congThuc": "|6-4|=2", "yNghia": "Bài học xuyên suốt: Học cách LÀM VIỆC VỚI NGƯỜI KHÁC"}
+          },
+          "theoNgayKhaiSinh": {
+            "date": "02/06/1985",
+            "congThuc": "Ngày=2, Tháng=6, Năm=1+9+8+5=23→5",
+            "thuThach1": {"number": 4, "congThuc": "|6-2|=4", "yNghia": "Học KỶ LUẬT, xây dựng nền móng"},
+            "thuThach2": {"number": 3, "congThuc": "|2-5|=3", "yNghia": "Học BIỂU ĐẠT, không sợ bị phán xét"},
+            "thuThach3": {"number": 1, "congThuc": "|4-3|=1", "yNghia": "Thử thách CHÍNH: ĐỘC LẬP, tin vào bản thân"},
+            "thuThach4": {"number": 1, "congThuc": "|6-5|=1", "yNghia": "Bài học xuyên suốt: TỰ LẬP, không phụ thuộc"}
+          },
+          "phanTichKetHop": "HAI BỘ THỬ THÁCH khác nhau: Ngày thực (số 2 chi phối = học HỢP TÁC) vs Ngày khai sinh (số 1 chi phối = học ĐỘC LẬP). Nghịch lý này phản ánh xung đột nội tâm: vừa cần độc lập vừa cần kết nối."
+        },
+        "soThieu": {
+          "congThuc": "L(3)+E(5)+X(6)+U(3)+A(1)+N(5)+X(6)+U(3)+Y(7)+E(5)+N(5) → Có: 1,3,5,6,7",
+          "cacSoThieu": [2, 4, 8, 9],
+          "phanTich": {
+            "thieu2": "Thiếu NHẠY CẢM → khó lắng nghe cảm xúc người khác, hay bỏ qua nhu cầu tình cảm của vợ con",
+            "thieu4": "Thiếu KỶ LUẬT → khó xây dựng thói quen bền vững, dễ bỏ cuộc",
+            "thieu8": "Thiếu QUẢN LÝ vật chất → có thể gặp khó khăn tài chính hoặc không biết duy trì",
+            "thieu9": "Thiếu TẦM NHÌN tổng quan → mâu thuẫn vì Số Chủ Đạo thực là 9 (năng lượng số 9 đến qua ngày sinh, không qua tên)"
+          },
+          "ghiChu": "Thiếu 4 số = nhiều lĩnh vực cần bổ sung. Đặc biệt thiếu số 2 (hợp tác) phù hợp với Số Thử Thách 2 → BÀI HỌC QUAN TRỌNG."
+        }
+      },
+      "baTruCot": {
+        "tam": {
+          "diem": 3,
+          "diemToiDa": 10,
+          "phanTich": "Số 9 có xu hướng triết lý nhưng khi mất cân bằng dễ rơi vào trầm cảm, xa rời thực tại. Số Chủ 22 tạo áp lực hoàn hảo không đạt được → thất vọng bản thân."
+        },
+        "tri": {
+          "diem": 7,
+          "diemToiDa": 10,
+          "phanTich": "Số 9 + Số Biểu Đạt 4 = nền tảng kiến thức vững + khả năng xây dựng hệ thống. Kinh nghiệm đa dạng là tài sản tiềm năng."
+        },
+        "luc": {
+          "diem": 2,
+          "diemToiDa": 10,
+          "phanTich": "Số 9 khi mất cân bằng thường bỏ bê thể chất. Ngày sinh 8 cần năng lượng mạnh nhưng hiện tại cạn kiệt → vòng xoáy tiêu cực."
+        }
+      },
+      "thachThucHienTai": [
+        "Mất kết nối mục đích sống (số 9 cần 'sứ mệnh')",
+        "Năng lượng bị rò rỉ qua điện thoại/thuốc lá (trốn tránh thực tại)",
+        "Số Chủ 22 không được hiện thực hóa → áp lực ngầm"
+      ],
+      "tiemNangCanKhaiPha": [
+        "Tái kết nối với 'di sản' muốn để lại cho con",
+        "Dùng kinh nghiệm để hướng dẫn người khác (kích hoạt Số Biểu Đạt 4)",
+        "Cần mục tiêu lớn hơn bản thân để số 9 'sống lại'"
+      ],
+      "hinhMauHoanThien": {
+        "tam": "Bình an nội tâm, kết nối gia đình, có mục đích sống rõ ràng",
+        "tri": "Người truyền đạt và hệ thống hóa kiến thức, được công nhận trong lĩnh vực chuyên môn",
+        "luc": "Khỏe mạnh, cường tráng, năng lượng đủ để hiện diện cho gia đình"
+      },
+      "chanDungTongHop": {
+        "tieuDe": "Người Thầy Đang Tìm Lại Sứ Mệnh",
+        "moTa": [
+          "Anh là người mang trong mình **hai con người**. Nhìn từ bên ngoài (theo ngày khai sinh), mọi người thấy anh như một người **thực tế, chắc chắn** - kiểu người xây dựng từng bước, không vội vàng. Nhưng bên trong (theo ngày sinh thực), anh lại là người có **tầm nhìn xa, muốn làm điều gì đó có ý nghĩa lớn lao**.",
+          "Với Số Chủ Đạo 9 từ ngày sinh thực, anh có tâm hồn của một **người thầy** - không nhất thiết phải đứng lớp, mà là kiểu người muốn **truyền đạt**, muốn **để lại điều gì đó** cho thế hệ sau. Anh nhìn cuộc sống với góc nhìn rộng, hay suy ngẫm về ý nghĩa của mọi thứ.",
+          "Điều anh thực sự khao khát? **Được công nhận** (Số Linh Hồn 8). Không phải vì danh tiếng hay tiền bạc, mà vì anh muốn những gì mình biết, mình trải qua có giá trị với ai đó. Khi không được đáp ứng điều này, anh dễ cảm thấy **trống rỗng, mất phương hướng**.",
+          "Một điểm đặc biệt: Ngày sinh 2 (từ khai sinh) cho thấy anh **không phải kiểu lãnh đạo một mình**. Anh làm việc tốt nhất khi có **người đồng hành** - có thể là vợ, có thể là đồng nghiệp, có thể là học trò. Điều này giải thích tại sao khi tự cô lập, anh càng cảm thấy mất năng lượng.",
+          "Số Biểu Đạt 4 cho thấy tài năng của anh nằm ở việc **hệ thống hóa** - biến những kinh nghiệm, kiến thức thành **quy trình rõ ràng** mà người khác có thể học theo. Đây là cầu nối giữa người thầy bên trong (số 9) và thế giới bên ngoài."
+        ],
+        "thongDiepChinh": "Anh không cần phải làm điều gì vĩ đại để tìm lại ý nghĩa. Chỉ cần bắt đầu **chia sẻ những gì anh biết** với một ai đó - có thể là con, có thể là người trẻ trong nghề. Khi anh thấy kiến thức của mình có ích cho người khác, số 9 bên trong sẽ dần 'thức dậy'.",
+        "dieuCanLuuY": [
+          "Số Thử Thách của anh xoay quanh việc **học cách hợp tác** - đừng cố gánh một mình, đừng tự cô lập",
+          "Thiếu số 2 trong tên cho thấy việc **lắng nghe cảm xúc người khác** không đến tự nhiên - cần chủ động học",
+          "Năm 2026 là năm số 6 - năm của **gia đình và trách nhiệm**. Đây là thời điểm tốt để chữa lành các mối quan hệ"
+        ]
+      },
+      "huongDanTuThanSoHoc": {
+        "choTri": {
+          "tuSo9Thuc": "Thiên hướng DẠY, HƯỚNG DẪN, truyền đạt kiến thức, để lại di sản cho thế hệ sau",
+          "tuNgaySinh8Thuc": "Cần vị trí QUYỀN LỰC tri thức, được công nhận là người có thẩm quyền",
+          "tuSo4KhaiSinh": "XÂY DỰNG HỆ THỐNG, tạo quy trình, tài liệu hóa kiến thức",
+          "tuNgaySinh2KhaiSinh": "CẦN ĐỐI TÁC, không thể phát triển một mình, cần người đồng hành",
+          "soLinhHon8": "Khao khát sâu xa = được CÔNG NHẬN, có vị thế, được tôn trọng vì kiến thức",
+          "ketHop": "Hướng phát triển: Trở thành NGƯỜI DẪN DẮT - dạy/hướng dẫn người khác (9) + hệ thống hóa kiến thức (4) + làm việc với đối tác/nhóm (2) + được công nhận (8)"
+        }
+      },
+      "goiYCuThe": {
+        "tieuDe": "GỢI Ý CỤ THỂ (Kết hợp Thần số học + Thông tin đầu vào)",
+        "nguon": "Dựa trên: Phân tích thần số học + Thông tin do người dùng cung cấp về nghề nghiệp, hiện trạng",
+        "veTri": {
+          "nenTangTuThanSoHoc": "Số 9 + Số 4 + Số Linh Hồn 8 → Thiên hướng TRUYỀN ĐẠT kiến thức có hệ thống, cần được công nhận",
+          "ketHopDauVao": "Kinh nghiệm: chỉ huy công trường, thanh quyết toán, đấu thầu trong ngành xây dựng",
+          "goiY": [
+            "Trở thành người hướng dẫn/cố vấn cho người trẻ trong ngành xây dựng",
+            "Hệ thống hóa kinh nghiệm thực chiến thành tài liệu/quy trình có thể truyền đạt",
+            "Tham gia cộng đồng nghề nghiệp để được công nhận (đáp ứng Số Linh Hồn 8)",
+            "Bắt đầu với 1-2 người muốn học hỏi (đáp ứng Ngày Sinh 2 - cần đối tác)"
+          ]
+        },
+        "veTam": {
+          "nenTangTuThanSoHoc": "Số 9 cần SỨ MỆNH, Số 2 cần KẾT NỐI",
+          "ketHopDauVao": "Hiện trạng: trì trệ, dấu hiệu trầm cảm, không giao tiếp vợ con, ôm điện thoại",
+          "goiY": [
+            "Mỗi tối 15 phút KHÔNG điện thoại với con (bắt đầu từ 5 phút)",
+            "Viết 1 điều biết ơn mỗi ngày (kích hoạt số 9 tích cực)",
+            "Tìm sứ mệnh thông qua việc giúp đỡ người khác (số 9 cần mục tiêu lớn hơn bản thân)"
+          ]
+        },
+        "veLuc": {
+          "nenTangTuThanSoHoc": "Ngày Sinh 8 cần năng lượng mạnh, số 9 mất cân bằng bỏ bê thể chất",
+          "ketHopDauVao": "Hiện trạng: gầy, ăn không ngon, ngủ kém, tiểu đêm, không vận động",
+          "goiY": [
+            "Khám sức khỏe tổng quát để loại trừ vấn đề y tế",
+            "Đi bộ 15 phút mỗi sáng (bắt đầu từ 5 phút)",
+            "Giảm thuốc lá từ từ (không cắt đột ngột)",
+            "Ăn đủ bữa dù không ngon miệng"
+          ]
+        }
+      }
+    },
+    {
+      "id": "mother",
+      "name": "Đỗ Thị Hằng",
+      "role": "Mẹ",
+      "birthDate": {
+        "official": "20/12/1985",
+        "used": "20/12/1985"
+      },
+      "cacSoCotLoi": {
+        "soChủDao": {
+          "number": 1,
+          "congThuc": "2+0 + 1+2 + 1+9+8+5 = 2 + 3 + 23 = 28 → 10 → 1",
+          "yNghia": "Số 1 - Người tiên phong, độc lập, lãnh đạo",
+          "dacDiem": {
+            "tichCuc": ["Độc lập", "Sáng tạo", "Quyết đoán", "Tiên phong", "Tự tin"],
+            "tieuCuc": ["Cô đơn trong vai trò", "Khó dựa dẫm", "Gánh vác quá nhiều", "Cứng đầu", "Thiếu kiên nhẫn"]
+          }
+        },
+        "soNgaySinh": {
+          "number": 20,
+          "rutGon": 2,
+          "yNghia": "Ngày sinh 20/2 - Nhạy cảm, hợp tác, ngoại giao, trực giác mạnh"
+        },
+        "soBieuDat": {
+          "congThuc": "D(4)+O(6)+T(2)+H(8)+I(9)+H(8)+A(1)+N(5)+G(7) = 50 → 5",
+          "number": 5,
+          "yNghia": "Số 5 - Linh hoạt, đa tài, thích thay đổi, giao tiếp"
+        },
+        "soLinhHon": {
+          "congThuc": "O(6)+I(9)+A(1) = 16 → 7",
+          "number": 7,
+          "yNghia": "Khao khát hiểu biết sâu, tìm kiếm chân lý, tâm linh"
+        },
+        "soNhanCach": {
+          "congThuc": "D(4)+T(2)+H(8)+H(8)+N(5)+G(7) = 34 → 7",
+          "number": 7,
+          "yNghia": "Số 7 - Người khác thấy chị BÍ ẨN, sâu sắc, khó đoán, có vẻ xa cách",
+          "ghiChu": "Ấn tượng bên ngoài là người trầm tư, không dễ tiếp cận, nhưng đáng tin cậy"
+        },
+        "soTruongThanh": {
+          "congThuc": "Số Chủ Đạo 1 + Số Biểu Đạt 5 = 6",
+          "number": 6,
+          "yNghia": "Số 6 - Đích đến cuộc đời là GIA ĐÌNH, TRÁCH NHIỆM, chăm sóc và yêu thương",
+          "ghiChu": "Sau 40 tuổi, năng lượng số 6 mạnh hơn → gia đình và cộng đồng là ưu tiên"
+        },
+        "soNamCaNhan": {
+          "2026": {"number": 6, "chuDe": "GIA ĐÌNH & TRÁCH NHIỆM - Năm tập trung gia đình, cân bằng công việc-cuộc sống"},
+          "2027": {"number": 7, "chuDe": "NỘI TÂM & NGHIÊN CỨU - Năm học hỏi, phát triển bản thân, tìm ý nghĩa sâu"},
+          "2028": {"number": 8, "chuDe": "THÀNH TỰU & VẬT CHẤT - Năm gặt hái, sự nghiệp phát triển, được công nhận"},
+          "2029": {"number": 9, "chuDe": "HOÀN THIỆN & BUÔNG BỎ - Năm kết thúc, buông bỏ điều không còn phục vụ"},
+          "2030": {"number": 1, "chuDe": "KHỞI ĐẦU MỚI - Chu kỳ mới bắt đầu, cơ hội tiên phong"}
+        },
+        "soThuThach": {
+          "congThuc": "Ngày=2+0=2, Tháng=1+2=3, Năm=1+9+8+5=23→5",
+          "thuThach1": {"number": 1, "congThuc": "|3-2|=1", "yNghia": "Học ĐỘC LẬP, tin vào bản thân, đứng trên đôi chân mình"},
+          "thuThach2": {"number": 3, "congThuc": "|2-5|=3", "yNghia": "Học BIỂU ĐẠT cảm xúc, không kìm nén, sáng tạo tự do"},
+          "thuThach3": {"number": 2, "congThuc": "|1-3|=2", "yNghia": "Thử thách CHÍNH: HỢP TÁC, kiên nhẫn với người khác"},
+          "thuThach4": {"number": 2, "congThuc": "|3-5|=2", "yNghia": "Bài học xuyên suốt: Cân bằng ĐỘC LẬP và HỢP TÁC"},
+          "phanTich": "Số Chủ Đạo 1 (độc lập) + Thử thách chính 2 (hợp tác) = xung đột giữa tự gánh và cần người hỗ trợ. Cần học cách NHẬN SỰ GIÚP ĐỠ."
+        },
+        "soThieu": {
+          "congThuc": "Đ(4)+O(6)+T(2)+H(8)+I(9)+H(8)+A(1)+N(5)+G(7) → Có: 1,2,4,5,6,7,8,9",
+          "cacSoThieu": [3],
+          "phanTich": {
+            "thieu3": "Thiếu BIỂU ĐẠT → kìm nén cảm xúc, khó nói ra điều mình cảm thấy, sống 'bình thản' thay vì vui vẻ/buồn rõ ràng"
+          },
+          "ghiChu": "Chỉ thiếu 1 số = năng lượng khá đầy đủ. Thiếu số 3 giải thích tại sao chị sống 'bình thản, không vui không buồn' - cần học biểu đạt cảm xúc."
+        }
+      },
+      "baTruCot": {
+        "tam": {
+          "diem": 6,
+          "diemToiDa": 10,
+          "phanTich": "Số 1 tạo sự độc lập nhưng cũng cô đơn. Ngày sinh 2 cần kết nối nhưng Số Chủ Đạo 1 lại tự gánh. Số Linh Hồn 7 tìm kiếm ý nghĩa sâu → tiềm năng nghề tâm lý."
+        },
+        "tri": {
+          "diem": 8,
+          "diemToiDa": 10,
+          "phanTich": "Số Biểu Đạt 5 = đa tài, linh hoạt. Số Chủ Đạo 1 = lãnh đạo. Điểm yếu bán hàng do Ngày sinh 2 (thích hợp tác hơn cạnh tranh)."
+        },
+        "luc": {
+          "diem": 7,
+          "diemToiDa": 10,
+          "phanTich": "Đã vượt qua ung thư = sức mạnh tinh thần phi thường. Số Chủ Đạo 1 cho sức bền để 'đứng dậy một mình'. Cần duy trì, không được chủ quan."
+        }
+      },
+      "thachThucHienTai": [
+        "Gánh vai trò điều phối gia đình một mình (Số Chủ Đạo 1)",
+        "Bán hàng yếu vì Ngày sinh 2 không thích 'đấu tranh'",
+        "Số Linh Hồn 7 chưa được đáp ứng (tiềm năng tâm lý bị kìm nén)"
+      ],
+      "tiemNangCanKhaiPha": [
+        "Chuyển từ 'bán hàng đẩy' sang 'xây dựng quan hệ' (dùng Ngày sinh 2)",
+        "Phát triển lĩnh vực tâm lý (Số Linh Hồn 7 + trải nghiệm sống)",
+        "Dạy con tự lập để giảm tải vai trò"
+      ],
+      "hinhMauHoanThien": {
+        "tam": "Có đối tác song hành (chồng hồi phục), được nghỉ ngơi, không gánh một mình",
+        "tri": "Người tiên phong và thấu hiểu, lãnh đạo bằng sự thấu cảm thay vì quyền lực",
+        "luc": "Duy trì sức khỏe ổn định, có thời gian cho bản thân"
+      },
+      "chanDungTongHop": {
+        "tieuDe": "Người Tiên Phong Cần Được Nghỉ Ngơi",
+        "moTa": [
+          "Chị là người mang năng lượng của **người đi đầu** (Số Chủ Đạo 1). Chị không thích đi theo đám đông, có quan điểm riêng, và khi cần thiết, chị sẵn sàng **đứng một mình** để làm điều mình tin là đúng. Đây là sức mạnh lớn nhất của chị - nhưng cũng là gánh nặng.",
+          "Điều thú vị là bên trong, chị lại khao khát **hiểu sâu** về con người (Số Linh Hồn 7). Chị không chỉ muốn biết 'cái gì' mà còn muốn biết 'tại sao'. Điều này giải thích vì sao chị có tiềm năng rất lớn trong lĩnh vực **tâm lý, coaching** - chị có thể nhìn thấu những điều người khác không thấy.",
+          "Ngày sinh 20 (rút gọn thành 2) cho thấy chị thực ra **không muốn một mình**. Chị cần **đối tác**, cần người đồng hành. Nhưng vì Số Chủ Đạo 1 quá mạnh, chị thường **tự gánh** thay vì nhờ giúp đỡ. Đây là mâu thuẫn cần giải quyết.",
+          "Số Biểu Đạt 5 cho thấy chị **đa tài và linh hoạt** - có thể làm tốt nhiều việc khác nhau. Nhưng cũng vì thế, chị dễ bị **phân tán năng lượng**, làm quá nhiều thứ một lúc.",
+          "Chị chỉ thiếu một số duy nhất trong tên: số 3 (biểu đạt). Điều này giải thích vì sao chị sống **'bình thản, không vui không buồn'** - chị có xu hướng **kìm nén cảm xúc** thay vì biểu đạt chúng ra ngoài."
+        ],
+        "thongDiepChinh": "Chị đã gánh đủ nhiều rồi. Giờ là lúc **học cách nhận** - nhận sự giúp đỡ từ chồng khi anh ấy hồi phục, nhận sự biết ơn từ con. Số 1 không có nghĩa là phải làm một mình - mà là **dẫn đầu**, và người dẫn đầu giỏi biết cách **ủy quyền**.",
+        "dieuCanLuuY": [
+          "Số Thử Thách chính là số 2 - bài học **hợp tác và kiên nhẫn**. Đừng tự gánh, hãy để người khác giúp",
+          "Thiếu số 3 - cần tập **nói ra cảm xúc**, không nên giữ mọi thứ trong lòng",
+          "Năm 2026 là năm số 6 - năm của **gia đình**. Tập trung chữa lành mối quan hệ với chồng"
+        ]
+      },
+      "huongDanTuThanSoHoc": {
+        "choTri": {
+          "soChủDao1": "Thiên hướng DẪN ĐẦU, tiên phong trong lĩnh vực mới, không đi theo đám đông",
+          "soBieuDat5": "Đa tài, GIAO TIẾP tốt, thích ứng thay đổi, không bị kẹt trong một vai trò",
+          "soLinhHon7": "Khao khát sâu xa = HIỂU BẢN CHẤT con người, nghiên cứu tâm lý, tìm ý nghĩa cuộc sống",
+          "ngaySinh2": "Xây dựng QUAN HỆ thay vì cạnh tranh trực tiếp, hợp tác đôi bên cùng có lợi",
+          "ketHop": "Hướng phát triển: NGƯỜI HIỂU & DẪN DẮT - lãnh đạo bằng thấu hiểu (1+7) + giao tiếp linh hoạt (5) + xây quan hệ (2)"
+        }
+      },
+      "goiYCuThe": {
+        "tieuDe": "GỢI Ý CỤ THỂ (Kết hợp Thần số học + Thông tin đầu vào)",
+        "nguon": "Dựa trên: Phân tích thần số học + Thông tin do người dùng cung cấp về nghề nghiệp, hiện trạng",
+        "veTri": {
+          "nenTangTuThanSoHoc": "Số 1 + Số 5 + Số Linh Hồn 7 → Tiên phong, đa tài, khao khát hiểu sâu con người",
+          "ketHopDauVao": "Nghề hiện tại: CPO công ty IT. Điểm mạnh: phân tích sản phẩm. Điểm yếu: bán hàng và kết nối tạo mạng lưới",
+          "goiY": [
+            "Chuyển từ 'bán hàng cứng' sang 'xây dựng quan hệ' (Ngày sinh 2 thích hợp tác, không thích cạnh tranh)",
+            "Phát triển lĩnh vực tâm lý/huấn luyện (Số Linh Hồn 7 cần hiểu sâu con người)",
+            "Dùng khả năng phân tích sản phẩm + hiểu tâm lý người dùng → định vị khác biệt",
+            "Học chứng chỉ tâm lý/coaching để mở rộng năng lực"
+          ]
+        },
+        "veTam": {
+          "nenTangTuThanSoHoc": "Số 1 độc lập nhưng cũng cô đơn, Ngày sinh 2 cần kết nối",
+          "ketHopDauVao": "Hiện trạng: bình thản, không vui không buồn, sống như đối tác với chồng, gánh việc nhà một mình",
+          "goiY": [
+            "Không tiếp tục gánh một mình - cần chồng tham gia (đáp ứng Ngày sinh 2)",
+            "Dành thời gian cho bản thân mỗi tuần (Số 1 cần không gian riêng)",
+            "Tìm kiếm ý nghĩa sâu hơn trong công việc và cuộc sống (Số Linh Hồn 7)"
+          ]
+        },
+        "veLuc": {
+          "nenTangTuThanSoHoc": "Số 1 cho sức bền, nhưng cần duy trì",
+          "ketHopDauVao": "Đã điều trị ung thư vú (2023-2024), hiện ổn định, thỉnh thoảng đau nhức",
+          "goiY": [
+            "Tái khám định kỳ, không được chủ quan",
+            "Duy trì vận động đều đặn",
+            "Giảm stress - không gánh quá nhiều một mình"
+          ]
+        }
+      }
+    },
+    {
+      "id": "daughter1",
+      "name": "Lê Phương Thảo",
+      "role": "Con gái lớn",
+      "birthDate": {
+        "official": "30/12/2018",
+        "used": "30/12/2018"
+      },
+      "cacSoCotLoi": {
+        "soChủDao": {
+          "number": 8,
+          "congThuc": "3+0 + 1+2 + 2+0+1+8 = 3 + 3 + 11 = 17 → 8",
+          "soChuAnhHuong": "11 (Bậc Thầy Trực Giác trong năm sinh)",
+          "yNghia": "Số 8 - Người thành đạt, quyền lực, cân bằng vật chất - tinh thần",
+          "dacDiem": {
+            "tichCuc": ["Tham vọng", "Quyết tâm", "Khả năng tổ chức", "Công bằng", "Thực tế"],
+            "tieuCuc": ["Áp lực thành công", "Sợ thất bại", "Cứng nhắc", "Vật chất quá mức", "Kiểm soát"]
+          }
+        },
+        "soNgaySinh": {
+          "number": 30,
+          "rutGon": 3,
+          "yNghia": "Ngày sinh 30/3 - Sáng tạo, biểu đạt, vui vẻ, nghệ thuật"
+        },
+        "soBieuDat": {
+          "congThuc": "L(3)+E(5)+P(7)+H(8)+U(3)+O(6)+N(5)+G(7)+T(2)+H(8)+A(1)+O(6) = 61 → 7",
+          "number": 7,
+          "yNghia": "Số 7 - Trí tuệ, phân tích, tìm kiếm chân lý"
+        },
+        "soLinhHon": {
+          "congThuc": "E(5)+U(3)+O(6)+A(1)+O(6) = 21 → 3",
+          "number": 3,
+          "yNghia": "Khao khát được biểu đạt, sáng tạo, vui vẻ"
+        },
+        "soNhanCach": {
+          "congThuc": "L(3)+P(7)+H(8)+N(5)+G(7)+T(2)+H(8) = 40 → 4",
+          "number": 4,
+          "yNghia": "Số 4 - Người khác thấy con ĐÁNG TIN CẬY, nghiêm túc, chăm chỉ",
+          "ghiChu": "Ấn tượng bên ngoài là trẻ ngoan, có trách nhiệm - có thể tạo áp lực phải 'hoàn hảo'"
+        },
+        "soTruongThanh": {
+          "congThuc": "Số Chủ Đạo 8 + Số Biểu Đạt 7 = 15 → 6",
+          "number": 6,
+          "yNghia": "Số 6 - Đích đến cuộc đời là GIA ĐÌNH, YÊU THƯƠNG, chăm sóc người khác",
+          "ghiChu": "Sau khi trưởng thành, con sẽ hướng đến vai trò chăm sóc, nuôi dưỡng"
+        },
+        "soNamCaNhan": {
+          "2026": {"number": 7, "chuDe": "NỘI TÂM & HỌC HỎI - Năm tập trung phát triển trí tuệ, nghiên cứu, tìm hiểu"},
+          "2027": {"number": 8, "chuDe": "THÀNH TỰU - Năm gặt hái kết quả học tập, được công nhận"},
+          "2028": {"number": 9, "chuDe": "HOÀN THIỆN - Năm kết thúc một giai đoạn, chuẩn bị thay đổi lớn"},
+          "2029": {"number": 1, "chuDe": "KHỞI ĐẦU MỚI - Năm bắt đầu chu kỳ mới, độc lập hơn"},
+          "2030": {"number": 11, "laSoChu": true, "chuDe": "NĂM SỐ CHỦ 11 - Năm đặc biệt! Trực giác cao, nhạy cảm, có thể đột phá về tâm linh/sáng tạo"}
+        },
+        "soThuThach": {
+          "congThuc": "Ngày=3+0=3, Tháng=1+2=3, Năm=2+0+1+8=11→2",
+          "thuThach1": {"number": 0, "congThuc": "|3-3|=0", "yNghia": "Số 0 = Thử thách ở TẤT CẢ lĩnh vực HOẶC tự do chọn thử thách - con cần tự tìm hướng đi"},
+          "thuThach2": {"number": 1, "congThuc": "|3-2|=1", "yNghia": "Học ĐỘC LẬP, tin vào bản thân, không phụ thuộc"},
+          "thuThach3": {"number": 1, "congThuc": "|0-1|=1", "yNghia": "Thử thách CHÍNH: TỰ TIN, đứng lên một mình, không sợ sai"},
+          "thuThach4": {"number": 1, "congThuc": "|3-2|=1", "yNghia": "Bài học xuyên suốt: ĐỘC LẬP và TỰ TIN"},
+          "phanTich": "Số 1 chi phối = bài học TỰ TIN là quan trọng nhất. Hiện tại con rụt rè, sợ sai → đang ở giai đoạn học bài này. Cần môi trường an toàn để thử sai."
+        },
+        "soThieu": {
+          "congThuc": "L(3)+E(5)+P(7)+H(8)+U(3)+O(6)+N(5)+G(7)+T(2)+H(8)+A(1)+O(6) → Có: 1,2,3,5,6,7,8",
+          "cacSoThieu": [4, 9],
+          "phanTich": {
+            "thieu4": "Thiếu KỶ LUẬT → có thể khó xây dựng thói quen, cần người hướng dẫn xây nền móng",
+            "thieu9": "Thiếu TẦM NHÌN tổng quan → có thể quá tập trung chi tiết, bỏ lỡ bức tranh lớn"
+          },
+          "ghiChu": "Thiếu số 4 (kỷ luật) nhưng Số Nhân Cách lại là 4 → người khác thấy con kỷ luật nhưng bên trong thiếu năng lượng này, cần bố mẹ giúp xây thói quen."
+        }
+      },
+      "baTruCot": {
+        "tam": {
+          "diem": 5,
+          "diemToiDa": 10,
+          "phanTich": "Ngày sinh 3 + Số Linh Hồn 3 = cần biểu đạt mạnh mẽ. NHƯNG Số Biểu Đạt 7 + Số Chủ Đạo 8 tạo áp lực 'phải đúng, phải giỏi' → xung đột nội tâm gây rụt rè."
+        },
+        "tri": {
+          "diem": 8,
+          "diemToiDa": 10,
+          "phanTich": "Số Biểu Đạt 7 + Số Chủ 11 = trí tuệ trực giác mạnh, tiếp thu nhanh. Số Chủ Đạo 8 cho khả năng tổ chức. Tiềm năng học thuật cao."
+        },
+        "luc": {
+          "diem": 5,
+          "diemToiDa": 10,
+          "phanTich": "Hơi gầy, tay chân yếu. Số Chủ Đạo 8 cần năng lượng vật chất mạnh để cân bằng. Tiểu đêm có thể liên quan stress từ áp lực."
+        }
+      },
+      "thachThucHienTai": [
+        "Xung đột Số Linh Hồn 3 (muốn biểu đạt) vs Số Biểu Đạt 7 (sợ sai)",
+        "Số Chủ Đạo 8 tạo áp lực thành công từ nhỏ",
+        "Số Chủ 11 nhạy cảm cao → dễ bị ảnh hưởng bởi năng lượng xung quanh",
+        "Rụt rè trước đám đông và người lạ",
+        "Sợ sai, sợ bị khiển trách",
+        "Dễ bị áp lực nên không thể hiện được khả năng"
+      ],
+      "tiemNangCanKhaiPha": [
+        "Tạo môi trường AN TOÀN để thử sai (giải phóng Số Linh Hồn 3)",
+        "Khen NỖ LỰC không chỉ KẾT QUẢ (giảm áp lực Số Chủ Đạo 8)",
+        "Dùng Số Chủ 11 cho trực giác, không để nó thành nhạy cảm quá mức",
+        "Thuyết trình trong môi trường an toàn (gia đình) trước khi ra ngoài"
+      ],
+      "hinhMauHoanThien": {
+        "tam": "Tự tin biểu đạt, không sợ sai, vui vẻ với chính mình, thoải mái trước đám đông",
+        "tri": "Người phân tích sáng tạo, kết hợp trí tuệ với nghệ thuật",
+        "luc": "Khỏe mạnh, năng lượng đầy đủ, không tiểu đêm"
+      },
+      "chanDungTongHop": {
+        "tieuDe": "Nghệ Sĩ Nhỏ Đang Tìm Sân Khấu An Toàn",
+        "moTa": [
+          "Con bé này có một **mâu thuẫn thú vị** trong tâm hồn. Một phần của con **rất muốn được thể hiện** - muốn nói, muốn hát, muốn kể chuyện (Ngày sinh 3 + Số Linh Hồn 3 = kép số 3). Nhưng một phần khác lại **sợ sai, sợ không hoàn hảo** (Số Biểu Đạt 7 + Số Chủ Đạo 8).",
+          "Hãy tưởng tượng con như một **nghệ sĩ nhỏ** muốn lên sân khấu, nhưng cứ đứng sau cánh gà vì sợ khán giả không thích. Điều con cần không phải là 'cố gắng tự tin hơn' - mà là một **sân khấu an toàn** nơi con biết rằng dù có sai, vẫn được yêu thương.",
+          "Số Chủ 11 trong năm sinh cho con **trực giác rất mạnh** - con có thể cảm nhận được không khí, cảm xúc của người xung quanh. Đây là món quà, nhưng cũng khiến con **nhạy cảm hơn** với phản ứng tiêu cực. Khi ai đó tỏ vẻ không hài lòng, con 'đọc' được ngay - và thu mình lại.",
+          "Số Biểu Đạt 7 cho thấy con có **trí tuệ phân tích** rất tốt - con thích hiểu 'tại sao', thích tìm hiểu sâu. Kết hợp với kép số 3 (biểu đạt), con có tiềm năng trong những lĩnh vực **vừa cần tư duy vừa cần sáng tạo** - như viết lách, thiết kế, nghiên cứu khoa học sáng tạo.",
+          "Số Chủ Đạo 8 đặt ra kỳ vọng **thành công** từ sớm. Điều này có thể tạo áp lực vô hình - con muốn làm tốt, muốn được công nhận. Bố mẹ cần chú ý **khen nỗ lực**, không chỉ khen kết quả, để con hiểu rằng 'cố gắng' cũng đáng giá như 'thành công'."
+        ],
+        "thongDiepChinh": "Con không cần phải hoàn hảo mới được yêu thương. Hãy tạo cho con những **sân khấu nhỏ an toàn** trong gia đình - nơi con được thử, được sai, được cười với sai lầm của mình. Khi con quen với việc 'sai cũng không sao', tự nhiên con sẽ dám thử nhiều hơn bên ngoài.",
+        "dieuCanLuuY": [
+          "Số Thử Thách chính là số 1 - bài học **tự tin vào bản thân**. Đừng so sánh con với ai, hãy so sánh con hôm nay với con hôm qua",
+          "Năm 2030 là năm Số Chủ 11 - năm **đặc biệt** có thể đánh dấu bước ngoặt về trực giác hoặc sáng tạo",
+          "Thiếu số 4 và 9 - có thể cần hỗ trợ về **kỷ luật** và **nhìn bức tranh lớn**"
+        ]
+      },
+      "huongDanTuThanSoHoc": {
+        "choTri": {
+          "soBieuDat7": "TRÍ TUỆ PHÂN TÍCH - nghiên cứu sâu, tìm hiểu bản chất, không chấp nhận bề mặt",
+          "soChủDao8": "KHẢ NĂNG TỔ CHỨC - quản lý, sắp xếp hệ thống, đạt thành tựu cụ thể",
+          "soChu11": "TRỰC GIÁC CAO - cảm nhận được điều người khác không thấy, nhạy bén",
+          "kepSo3": "BIỂU ĐẠT SÁNG TẠO - Ngày sinh 3 + Số Linh Hồn 3 = khao khát mãnh liệt được THỂ HIỆN bản thân qua sáng tạo",
+          "xungDot": "Xung đột: Muốn biểu đạt tự do (3+3) nhưng sợ sai, sợ không hoàn hảo (7+8) → cần MÔI TRƯỜNG AN TOÀN",
+          "ketHop": "Hướng phát triển: Lĩnh vực kết hợp PHÂN TÍCH (7) + SÁNG TẠO (3) + TỔ CHỨC (8) + TRỰC GIÁC (11)"
+        }
+      },
+      "goiYCuThe": {
+        "tieuDe": "GỢI Ý CỤ THỂ (Kết hợp Thần số học + Thông tin đầu vào)",
+        "nguon": "Dựa trên: Phân tích thần số học + Thông tin do người dùng cung cấp về tính cách, học tập, sức khỏe",
+        "veTri": {
+          "nenTangTuThanSoHoc": "Số 7 + Số 8 + Số Chủ 11 + Kép số 3 → Trí tuệ phân tích cao + trực giác + khao khát biểu đạt sáng tạo",
+          "ketHopDauVao": "Hoàn thành xuất sắc chương trình học song ngữ. Điểm mạnh: tiếp thu nhanh. Điểm yếu: trình bày trước đám đông, mô tả sự việc",
+          "goiY": [
+            "Khuyến khích các hoạt động kết hợp PHÂN TÍCH + SÁNG TẠO (nghiên cứu khoa học sáng tạo, thiết kế, viết truyện...)",
+            "Tập thuyết trình trong MÔI TRƯỜNG AN TOÀN (gia đình) trước - 5 phút/tuần",
+            "Khen khi CON DÁM THỬ, không chỉ khen khi đúng/giỏi",
+            "Cho phép sai - 'Sai cũng không sao, con cứ thử đi'",
+            "Phát triển trực giác (Số Chủ 11) qua hoạt động nghệ thuật, âm nhạc"
+          ]
+        },
+        "veTam": {
+          "nenTangTuThanSoHoc": "Kép số 3 cần biểu đạt, nhưng số 7+8 tạo áp lực hoàn hảo → xung đột nội tâm",
+          "ketHopDauVao": "Vui vẻ nhưng dễ cáu bẳn, dễ khóc. Rụt rè trước đám đông, nhút nhát, tự ti, sợ sai, sợ bị khiển trách",
+          "goiY": [
+            "Ôm khen khi DÁM THỬ (dù thành công hay thất bại)",
+            "Bố mẹ kể chuyện những lần MÌNH SAI và học được gì",
+            "Tập nói 'Con thử nhé' thay vì 'Con không dám'",
+            "Mỗi tuần thử 1 việc mới mà trước đây ngại",
+            "KHÔNG so sánh với bạn, KHÔNG khiển trách khi sai"
+          ]
+        },
+        "veLuc": {
+          "nenTangTuThanSoHoc": "Số Chủ Đạo 8 cần năng lượng vật chất mạnh để cân bằng",
+          "ketHopDauVao": "Hơi gầy, lực tay chân yếu, tiểu đêm",
+          "goiY": [
+            "Tham gia 1 hoạt động thể chất yêu thích (bơi/múa/võ)",
+            "Cải thiện dinh dưỡng, ăn uống đầy đủ",
+            "Đi ngủ đúng giờ (cải thiện tiểu đêm)",
+            "Giảm áp lực/stress có thể cải thiện tiểu đêm"
+          ]
+        }
+      }
+    },
+    {
+      "id": "daughter2",
+      "name": "Lê Thảo Vy",
+      "role": "Con gái út",
+      "birthDate": {
+        "official": "22/10/2020",
+        "used": "22/10/2020"
+      },
+      "cacSoCotLoi": {
+        "soChủDao": {
+          "number": 9,
+          "congThuc": "2+2 + 1+0 + 2+0+2+0 = 4 + 1 + 4 = 9",
+          "soChuAnhHuong": "22 (Bậc Thầy Xây Dựng trong ngày sinh!)",
+          "yNghia": "Số 9 - Nhà nhân đạo, hoàn thiện, trí tuệ rộng",
+          "dacDiem": {
+            "tichCuc": ["Giàu cảm xúc", "Thấu hiểu", "Sáng tạo", "Rộng lượng", "Trực giác"],
+            "tieuCuc": ["Cảm xúc dễ bùng nổ", "Hay mơ mộng", "Khó kiểm soát phản ứng", "Nhạy cảm quá mức", "Dễ thất vọng"]
+          }
+        },
+        "soNgaySinh": {
+          "number": 22,
+          "laSoChu": true,
+          "yNghia": "Ngày sinh 22 - BẬC THẦY XÂY DỰNG! Tiềm năng xây dựng vĩ đại, nhưng áp lực lớn"
+        },
+        "soBieuDat": {
+          "congThuc": "L(3)+E(5)+T(2)+H(8)+A(1)+O(6)+V(4)+Y(7) = 36 → 9",
+          "number": 9,
+          "yNghia": "Số 9 - Hoàn thiện, tổng hợp, nhân đạo"
+        },
+        "soLinhHon": {
+          "congThuc": "E(5)+A(1)+O(6) = 12 → 3",
+          "number": 3,
+          "yNghia": "Khao khát biểu đạt, sáng tạo, vui vẻ"
+        },
+        "soNhanCach": {
+          "congThuc": "L(3)+T(2)+H(8)+V(4)+Y(7) = 24 → 6",
+          "number": 6,
+          "yNghia": "Số 6 - Người khác thấy con ĐÁNG YÊU, chăm sóc, tình cảm",
+          "ghiChu": "Ấn tượng bên ngoài là trẻ ngoan, yêu thương, dễ gần"
+        },
+        "soTruongThanh": {
+          "congThuc": "Số Chủ Đạo 9 + Số Biểu Đạt 9 = 18 → 9",
+          "number": 9,
+          "yNghia": "Số 9 - Đích đến cuộc đời là HOÀN THIỆN, PHỤNG SỰ, tầm nhìn nhân đạo",
+          "ghiChu": "Kép số 9 + Số Trưởng Thành 9 = năng lượng 9 cực mạnh → thiên hướng giúp đỡ nhiều người"
+        },
+        "soNamCaNhan": {
+          "2026": {"number": 6, "chuDe": "GIA ĐÌNH & TÌNH CẢM - Năm tập trung yêu thương, gắn kết gia đình"},
+          "2027": {"number": 7, "chuDe": "NỘI TÂM & HỌC HỎI - Năm tìm hiểu, khám phá, phát triển trí tuệ"},
+          "2028": {"number": 8, "chuDe": "THÀNH TỰU - Năm gặt hái, học được nhiều điều mới"},
+          "2029": {"number": 9, "chuDe": "HOÀN THIỆN - Năm kết thúc một giai đoạn, chuẩn bị thay đổi"},
+          "2030": {"number": 1, "chuDe": "KHỞI ĐẦU MỚI - Năm bắt đầu chu kỳ mới, độc lập hơn (lớp 4 - bắt đầu tự lập)"}
+        },
+        "soThuThach": {
+          "congThuc": "Ngày=2+2=4, Tháng=1+0=1, Năm=2+0+2+0=4",
+          "thuThach1": {"number": 3, "congThuc": "|1-4|=3", "yNghia": "Học BIỂU ĐẠT, không sợ bị phán xét, nói ra cảm xúc thay vì bùng nổ"},
+          "thuThach2": {"number": 0, "congThuc": "|4-4|=0", "yNghia": "Số 0 = Thử thách ở TẤT CẢ lĩnh vực, tự do khám phá"},
+          "thuThach3": {"number": 3, "congThuc": "|3-0|=3", "yNghia": "Thử thách CHÍNH: BIỂU ĐẠT cảm xúc đúng cách, không kìm nén"},
+          "thuThach4": {"number": 3, "congThuc": "|1-4|=3", "yNghia": "Bài học xuyên suốt: Học cách NÓI RA thay vì bùng nổ"},
+          "phanTich": "Số 3 chi phối = bài học BIỂU ĐẠT là quan trọng nhất. Hiện tại con bùng nổ cảm xúc → đang cần học cách biểu đạt đúng. Dạy qua kể chuyện (Số Linh Hồn 3 + thích sách)."
+        },
+        "soThieu": {
+          "congThuc": "L(3)+E(5)+T(2)+H(8)+A(1)+O(6)+V(4)+Y(7) → Có: 1,2,3,4,5,6,7,8",
+          "cacSoThieu": [9],
+          "phanTich": {
+            "thieu9": "Thiếu TẦM NHÌN tổng quan → có thể quá tập trung cảm xúc trước mắt, khó nhìn bức tranh lớn"
+          },
+          "ghiChu": "Chỉ thiếu số 9 NHƯNG Số Chủ Đạo và Số Biểu Đạt đều là 9 → Nghịch lý: năng lượng 9 đến qua ngày sinh, không qua tên → cần PHÁT TRIỂN tầm nhìn rộng."
+        }
+      },
+      "baTruCot": {
+        "tam": {
+          "diem": 6,
+          "diemToiDa": 10,
+          "phanTich": "Số Chủ Đạo 9 + Số Linh Hồn 3 = cảm xúc phong phú, cần được biểu đạt. Ngày sinh Số Chủ 22 = áp lực tiềm ẩn. Cảm xúc bùng nổ là cách giải tỏa chưa học được."
+        },
+        "tri": {
+          "diem": 7,
+          "diemToiDa": 10,
+          "phanTich": "Số Biểu Đạt 9 + Số Chủ Đạo 9 = KÉP SỐ 9 = trí tuệ tổng hợp mạnh. Thích đọc sách là biểu hiện đúng. Không thích toán vì toán cần chi tiết (số 9 thích tổng quan)."
+        },
+        "luc": {
+          "diem": 6,
+          "diemToiDa": 10,
+          "phanTich": "Sức khỏe bình thường nhưng gầy. Số Chủ 22 cần nền tảng vật chất vững để xây dựng. Cần chú ý dinh dưỡng."
+        }
+      },
+      "thachThucHienTai": [
+        "Ngày sinh Số Chủ 22 = tiềm năng LỚN nhưng áp lực cũng LỚN",
+        "Kép số 9 = quá nhạy cảm với môi trường",
+        "Chưa biết cách điều tiết cảm xúc (5 tuổi là bình thường)"
+      ],
+      "tiemNangCanKhaiPha": [
+        "Nuôi dưỡng Số Chủ 22 qua việc 'xây dựng' (LEGO, vẽ, tạo hình)",
+        "Dạy điều tiết cảm xúc qua kể chuyện (Số Linh Hồn 3 + thích sách)",
+        "Không ép toán chi tiết, dùng toán qua câu chuyện/hình ảnh (phù hợp số 9)"
+      ],
+      "hinhMauHoanThien": {
+        "tam": "Biết điều tiết cảm xúc, yêu thương lan tỏa, không bùng nổ tiêu cực",
+        "tri": "Người xây dựng với tầm nhìn nhân đạo, phụng sự nhiều người",
+        "luc": "Khỏe mạnh, cân nặng phù hợp, năng lượng dồi dào"
+      },
+      "chanDungTongHop": {
+        "tieuDe": "Kiến Trúc Sư Nhỏ Với Trái Tim Lớn",
+        "moTa": [
+          "Con bé này mang trong mình năng lượng **rất đặc biệt**. Ngày sinh 22 - Số Chủ Bậc Thầy Xây Dựng - xuất hiện ở vị trí mạnh nhất. Điều này có nghĩa con có **tiềm năng xây dựng điều gì đó lớn lao** trong tương lai - không nhất thiết là tòa nhà, có thể là một tổ chức, một cộng đồng, một dự án có tầm ảnh hưởng.",
+          "Kép số 9 (cả Số Chủ Đạo và Số Biểu Đạt đều là 9) cho thấy con có **tâm hồn nhân đạo** - muốn giúp đỡ người khác, nhìn thế giới với tầm nhìn rộng. Con thích đọc sách không phải ngẫu nhiên - đó là cách số 9 **tìm kiếm tri thức rộng**, muốn hiểu thế giới.",
+          "Số Linh Hồn 3 là **nhiên liệu** cho mọi thứ con làm - con cần được **biểu đạt**, được kể chuyện, được tưởng tượng. Đây là lý do con thích sách hơn toán - sách cho phép con bay bổng, còn toán đòi hỏi chi tiết khô khan (số 9 không thích chi tiết!).",
+          "Cảm xúc bùng nổ của con không phải là 'hư' - đó là vì con **cảm nhận mọi thứ rất mạnh** (Kép số 9 rất nhạy cảm) nhưng chưa biết cách **điều tiết**. 5 tuổi là bình thường để học điều này. Dạy con qua **kể chuyện** sẽ hiệu quả hơn giải thích logic - vì Số Linh Hồn 3 của con tiếp nhận qua cảm xúc và tưởng tượng.",
+          "Con không thích toán vì số 9 **thích tổng quan, không thích chi tiết**. Đừng ép con học toán theo cách truyền thống - hãy dạy qua **câu chuyện, hình ảnh, trò chơi**. Khi toán trở nên 'có nghĩa', con sẽ học nhanh hơn nhiều."
+        ],
+        "thongDiepChinh": "Con mang sứ mệnh lớn, nhưng đừng vội - con mới 5 tuổi. Bây giờ, việc quan trọng nhất là **nuôi dưỡng trí tưởng tượng** (qua sách, kể chuyện), **dạy điều tiết cảm xúc** (qua kể chuyện, không phải phạt), và **cho con xây dựng** (LEGO, vẽ, tạo hình) để Số Chủ 22 được phát triển tự nhiên.",
+        "dieuCanLuuY": [
+          "Số Thử Thách chính là số 3 - bài học **biểu đạt cảm xúc đúng cách**. Dạy con NÓI ra thay vì bùng nổ",
+          "Chỉ thiếu số 9 trong tên nhưng Số Chủ Đạo và Biểu Đạt đều là 9 - năng lượng 9 đến qua ngày sinh, **rất mạnh**",
+          "Số Trưởng Thành cũng là 9 - cả đời con sẽ xoay quanh việc **hoàn thiện và phụng sự**"
+        ]
+      },
+      "huongDanTuThanSoHoc": {
+        "choTri": {
+          "ngaySinhSoChu22": "BẬC THẦY XÂY DỰNG ở vị trí NGÀY SINH = cực mạnh! Tiềm năng xây dựng điều gì đó LỚN LAO, có tầm ảnh hưởng rộng",
+          "kepSo9": "Số Chủ Đạo 9 + Số Biểu Đạt 9 = KÉP SỐ 9 = năng lượng NHÂN ĐẠO cực mạnh, muốn giúp đỡ nhiều người, nhìn BỨC TRANH LỚN",
+          "soLinhHon3": "Khao khát BIỂU ĐẠT SÁNG TẠO - đây là NHIÊN LIỆU cho mọi hoạt động, cần được nuôi dưỡng",
+          "taiSaoKhongThichToan": "Số 9 thích TỔNG QUAN, không thích CHI TIẾT → giải thích vì sao không thích toán. Dạy toán qua HÌNH ẢNH, CÂU CHUYỆN sẽ phù hợp hơn",
+          "taiSaoThichDocSach": "Đọc sách = Kép số 9 tìm kiếm TRI THỨC RỘNG + Số Linh Hồn 3 được thỏa mãn qua TƯỞNG TƯỢNG",
+          "ketHop": "Hướng phát triển: XÂY DỰNG (22) điều gì đó PHỤC VỤ NHIỀU NGƯỜI (9+9) qua BIỂU ĐẠT SÁNG TẠO (3)"
+        }
+      },
+      "goiYCuThe": {
+        "tieuDe": "GỢI Ý CỤ THỂ (Kết hợp Thần số học + Thông tin đầu vào)",
+        "nguon": "Dựa trên: Phân tích thần số học + Thông tin do người dùng cung cấp về tính cách, học tập, sức khỏe",
+        "veTri": {
+          "nenTangTuThanSoHoc": "Số Chủ 22 + Kép số 9 + Số Linh Hồn 3 → Tiềm năng xây dựng lớn + nhân đạo + biểu đạt sáng tạo",
+          "ketHopDauVao": "Chuẩn bị lên lớp 1. Thích đọc sách. Không thích toán. Rụt rè trước người lạ",
+          "goiY": [
+            "Nuôi dưỡng Số Chủ 22 qua hoạt động XÂY DỰNG: LEGO, vẽ, tạo hình, làm đồ thủ công",
+            "KHÔNG ÉP toán chi tiết - dạy toán qua CÂU CHUYỆN, HÌNH ẢNH (số 9 thích tổng quan)",
+            "Khuyến khích đọc sách - đây là cách tự nhiên để phát triển (Kép số 9 + Số Linh Hồn 3)",
+            "Hướng đến các hoạt động GIÚP ĐỠ NGƯỜI KHÁC (Kép số 9 = nhân đạo)",
+            "Cho tham gia kể chuyện, diễn kịch (Số Linh Hồn 3 cần biểu đạt)"
+          ]
+        },
+        "veTam": {
+          "nenTangTuThanSoHoc": "Số Chủ 22 áp lực lớn, Kép số 9 nhạy cảm, Số Linh Hồn 3 cần biểu đạt",
+          "ketHopDauVao": "Sống tình cảm, cảm xúc dễ bùng nổ khi không vừa ý. Rụt rè trước người lạ",
+          "goiY": [
+            "Dạy điều tiết cảm xúc qua KỂ CHUYỆN (phù hợp Số Linh Hồn 3 + thích sách)",
+            "Cho phép cảm xúc được biểu đạt - không nói 'Đừng khóc'",
+            "Ôm ấp nhiều (Số Linh Hồn 3 cần tình cảm)",
+            "Khen khi bình tĩnh được: 'Con biết bình tĩnh giỏi quá!'",
+            "Làm quen từ từ với người lạ - không ép"
+          ]
+        },
+        "veLuc": {
+          "nenTangTuThanSoHoc": "Số Chủ 22 cần nền tảng vật chất vững để xây dựng",
+          "ketHopDauVao": "Sức khỏe bình thường, thể chất gầy",
+          "goiY": [
+            "Cải thiện dinh dưỡng, ăn uống đầy đủ",
+            "Vận động cùng chị",
+            "Ngủ đủ giấc, đúng giờ"
+          ]
+        }
+      }
+    }
+  ],
+  "phanTichGiaDinh": {
+    "soGiaDinh": {
+      "congThuc": "9 (Bố) + 1 (Mẹ) + 8 (Con 1) + 9 (Con 2) = 27 → 9",
+      "number": 9,
+      "yNghia": "Gia đình số 9 - Sứ mệnh hoàn thiện, nhân đạo, trí tuệ",
+      "suMenhGiaDinh": "Gia đình này có sứ mệnh HOÀN THIỆN - mỗi thành viên đến để học bài học và trở nên trọn vẹn hơn. Gia đình là 'trường học' của nhau."
+    },
+    "phanBoSo": {
+      "chiPhoi": [9, 9, 9],
+      "moHinh": "Số 9 lặp lại 3 lần (Bố Số Chủ Đạo 9, Con 2 Số Chủ Đạo 9 + Số Biểu Đạt 9)",
+      "yNghia": "Số 9 chi phối gia đình = năng lượng hoàn thiện mạnh mẽ. Cần học cách BUÔNG BỎ và CHẤP NHẬN không hoàn hảo."
+    },
+    "soChuTrongGiaDinh": {
+      "soLuong": 4,
+      "chiTiet": [
+        "Bố: 22 trong năm sinh",
+        "Mẹ: Không có Số Chủ",
+        "Con 1: 11 trong năm sinh",
+        "Con 2: 22 trong NGÀY SINH (rất mạnh!)"
+      ],
+      "yNghia": "3/4 thành viên có Số Chủ = gia đình có tiềm năng ĐẶC BIỆT nhưng cũng chịu ÁP LỰC lớn. Cần môi trường an toàn để phát triển."
+    },
+    "dongLucBoTro": {
+      "diemManh": [
+        {
+          "cap": "Mẹ (1) ↔ Bố (9)",
+          "moTa": "Số 1 khởi đầu, số 9 hoàn thiện = vòng tròn trọn vẹn. Mẹ dẫn dắt, Bố bổ sung trí tuệ tổng quan."
+        },
+        {
+          "cap": "Con 1 (8) ↔ Con 2 (9)",
+          "moTa": "Số 8 thực tế, số 9 triết lý = cân bằng nhau. Chị có thể giúp em 'chân thực hơn', em giúp chị 'rộng mở hơn'."
+        }
+      ],
+      "xungDot": [
+        {
+          "cap": "Bố (9) ↔ Con 1 (8)",
+          "xungDot": "Số 9 hay mơ mộng xa vời, số 8 cần kết quả cụ thể. Bố cần cho con thấy 'sản phẩm' thực tế.",
+          "giaiPhap": "Bố dạy con qua DỰ ÁN CỤ THỂ (xây mô hình, sửa đồ...) thay vì lời nói."
+        },
+        {
+          "cap": "Mẹ (1) ↔ Bố (9)",
+          "xungDot": "Số 1 độc lập, gánh chịu. Số 9 đang rút lui, không hiện diện. → Mẹ quá tải.",
+          "giaiPhap": "Bố cần HIỆN DIỆN (không cần hoàn hảo) để Mẹ được nghỉ ngơi."
+        }
+      ]
+    }
+  },
+  "maHoTro": {
+    "moTa": "Ma trận hỗ trợ - Mỗi người hỗ trợ người khác như thế nào",
+    "danhSach": [
+      {
+        "nguoiHoTro": "Bố",
+        "hoTro": [
+          {"nguoiNhan": "Mẹ", "cachThuc": "HIỆN DIỆN để Mẹ được nghỉ, không cần nói gì hay làm gì hoàn hảo - chỉ cần Ở ĐÓ"},
+          {"nguoiNhan": "Con 1", "cachThuc": "Kể chuyện thất bại của bản thân (bình thường hóa sai lầm), làm dự án thực tế cùng"},
+          {"nguoiNhan": "Con 2", "cachThuc": "Đọc sách cùng (Kép số 9 kết nối qua trí tuệ), xây LEGO cùng (nuôi Số Chủ 22)"}
+        ]
+      },
+      {
+        "nguoiHoTro": "Mẹ",
+        "hoTro": [
+          {"nguoiNhan": "Bố", "cachThuc": "GHI NHẬN tiến bộ nhỏ, không nhắc nhở/so sánh, cho không gian hồi phục"},
+          {"nguoiNhan": "Con 1", "cachThuc": "Tạo môi trường AN TOÀN thử sai, khen nỗ lực không chỉ kết quả"},
+          {"nguoiNhan": "Con 2", "cachThuc": "Dạy điều tiết cảm xúc qua kể chuyện, cho phép cảm xúc được biểu đạt"}
+        ]
+      },
+      {
+        "nguoiHoTro": "Con 1",
+        "hoTro": [
+          {"nguoiNhan": "Bố", "cachThuc": "Ôm bố, kéo bố vào hoạt động, cho bố thấy 'bố cần thiết'"},
+          {"nguoiNhan": "Mẹ", "cachThuc": "Tự lập hơn để Mẹ bớt gánh, nói cảm ơn Mẹ"},
+          {"nguoiNhan": "Con 2", "cachThuc": "Làm gương về tự tin (sau khi được khai phá), chơi cùng em"}
+        ]
+      },
+      {
+        "nguoiHoTro": "Con 2",
+        "hoTro": [
+          {"nguoiNhan": "Bố", "cachThuc": "Kể chuyện, kéo bố vào thế giới của mình, cho bố thấy niềm vui nhỏ"},
+          {"nguoiNhan": "Mẹ", "cachThuc": "Yêu thương, ôm ấp (Số Linh Hồn 3 biểu đạt tình cảm tự nhiên)"},
+          {"nguoiNhan": "Con 1", "cachThuc": "Cổ vũ chị thử thách mới, làm 'khán giả' an toàn"}
+        ]
+      }
+    ]
+  },
+  "huongDanGhiNhan": {
+    "nguyenTac": "Ghi nhận đúng cách = nhiên liệu phát triển. Ghi nhận sai = áp lực thêm.",
+    "theoNguoi": [
+      {
+        "nguoi": "Bố",
+        "cachDung": ["'Cảm ơn bố đã ở đây'", "'Bố làm tốt lắm' (cho việc nhỏ)", "'Con yêu bố'"],
+        "tranh": ["So sánh với quá khứ", "Nhắc nhở việc chưa làm", "Chỉ trích gián tiếp"]
+      },
+      {
+        "nguoi": "Mẹ",
+        "cachDung": ["'Mẹ giỏi quá!'", "'Cảm ơn Mẹ đã lo cho cả nhà'", "'Mẹ nghỉ đi, để con/bố làm'"],
+        "tranh": ["Coi việc Mẹ làm là đương nhiên", "Không để ý Mẹ mệt"]
+      },
+      {
+        "nguoi": "Con 1",
+        "cachDung": ["'Con dũng cảm thử rồi!'", "'Con cố gắng lắm!'", "Ôm khen khi DÁM THỬ (dù sai)"],
+        "tranh": ["Chỉ khen khi đúng/giỏi", "So sánh với bạn", "Khiển trách khi sai"]
+      },
+      {
+        "nguoi": "Con 2",
+        "cachDung": ["'Con biết nói ra cảm xúc rồi!'", "'Con bình tĩnh giỏi quá!'", "Ôm ấp nhiều"],
+        "tranh": ["Phạt khi bùng nổ cảm xúc", "Nói 'đừng khóc'", "So sánh với chị"]
+      }
+    ]
+  },
+  "loTrinh2026_2030": {
+    "tamNhin": "Gia đình số 9 HOÀN THIỆN - Mỗi người là phiên bản tốt nhất của mình, cùng nhau tạo môi trường an toàn để phát triển",
+    "cacGiaiDoan": [
+      {
+        "thoiGian": "Quý 1-2/2026",
+        "chuDe": "NỀN MÓNG - Kích hoạt lại Bố",
+        "thanhVienUuTien": {"id": "father", "lyDo": "Bố đang ở điểm thấp nhất. Không thể xây nhà trên nền lung lay."},
+        "dacDiemTapTrung": ["Hiện diện", "Kết nối", "Mục đích"],
+        "hanhDong": {
+          "father": ["Mỗi tối 15 phút KHÔNG điện thoại với con", "Viết 1 điều biết ơn mỗi ngày", "Tìm 1 người trẻ trong ngành để hướng dẫn"],
+          "mother": ["Không nhắc nhở/chỉ trích Bố", "Cho phép mình nghỉ ngơi khi Bố hiện diện"],
+          "daughter1": ["Ôm bố mỗi tối trước khi ngủ"],
+          "daughter2": ["Kể chuyện trường cho bố nghe"]
+        }
+      },
+      {
+        "thoiGian": "Quý 3-4/2026",
+        "chuDe": "TĂNG CƯỜNG - Nâng sức khỏe toàn gia đình",
+        "thanhVienUuTien": {"id": "father", "phu": "daughter1", "lyDo": "Tiếp tục Bố + tăng lực cho Con 1"},
+        "dacDiemTapTrung": ["Sức khỏe", "Năng lượng", "Vận động"],
+        "hanhDong": {
+          "father": ["Khám sức khỏe tổng quát", "Đi bộ 15 phút mỗi sáng", "Giảm thuốc lá từ từ"],
+          "mother": ["Tái khám định kỳ", "Duy trì thói quen tập luyện"],
+          "daughter1": ["Tham gia 1 hoạt động thể chất yêu thích", "Ăn uống cải thiện", "Đi ngủ đúng giờ"],
+          "daughter2": ["Vận động cùng chị", "Cải thiện dinh dưỡng"]
+        }
+      },
+      {
+        "thoiGian": "Quý 1-2/2027",
+        "chuDe": "KHAI PHÁ - Giải phóng tiềm năng Con 1",
+        "thanhVienUuTien": {"id": "daughter1", "lyDo": "Con 1 có tiềm năng cao nhưng bị kìm nén bởi sợ sai"},
+        "dacDiemTapTrung": ["Tự tin biểu đạt", "Không sợ sai", "Dám thử"],
+        "hanhDong": {
+          "father": ["Kể chuyện những lần BỐ SAI", "Làm dự án nhỏ cùng con"],
+          "mother": ["Nói 'Con thử nhé, sai cũng không sao'", "Khen NỖ LỰC không chỉ KẾT QUẢ"],
+          "daughter1": ["Mỗi tuần thử 1 việc mới", "Thuyết trình 5 phút cho gia đình vào Chủ nhật"],
+          "daughter2": ["Làm 'khán giả' cổ vũ chị"]
+        }
+      },
+      {
+        "thoiGian": "Quý 3-4/2027",
+        "chuDe": "PHÁT TRIỂN - Mẹ mở rộng nghề nghiệp",
+        "thanhVienUuTien": {"id": "mother", "lyDo": "Bố đã ổn định hơn, con 1 tự tin hơn → Mẹ có thể tập trung vào bản thân"},
+        "dacDiemTapTrung": ["Phát triển nghề", "Xây dựng quan hệ", "Cân bằng"],
+        "hanhDong": {
+          "father": ["Đảm nhận thêm việc nhà/con", "Hỗ trợ Mẹ kết nối trong ngành"],
+          "mother": ["Bắt đầu học/chứng chỉ tâm lý", "Chuyển cách tiếp cận sang xây dựng quan hệ", "Dành thời gian cho bản thân"],
+          "daughter1": ["Tự lập hơn"],
+          "daughter2": ["Học cách tự chơi/tự học"]
+        }
+      },
+      {
+        "thoiGian": "2028",
+        "chuDe": "CỦNG CỐ - Hệ thống hóa thói quen gia đình",
+        "thanhVienUuTien": {"id": "all", "lyDo": "Sau 2 năm tập trung từng người, giờ củng cố như một hệ thống"},
+        "dacDiemTapTrung": ["Thói quen bền vững", "Giao tiếp gia đình", "Tự lập"],
+        "hanhDong": {
+          "family": ["Họp gia đình hàng tuần (15 phút Chủ nhật)", "Mỗi người có 'vai trò' trong nhà", "Kỷ niệm thành công hàng tháng"]
+        }
+      },
+      {
+        "thoiGian": "2029-2030",
+        "chuDe": "HOÀN THIỆN - Mỗi người là phiên bản tốt nhất",
+        "thanhVienUuTien": {"id": "all", "lyDo": "Đánh giá tổng thể, điều chỉnh, chuẩn bị cho giai đoạn tiếp theo"},
+        "mucTieu": {
+          "father": {"tam": "Kết nối gia đình, có mục đích sống rõ ràng", "tri": "Được công nhận trong lĩnh vực chuyên môn", "luc": "Sức khỏe cải thiện, bỏ thuốc lá"},
+          "mother": {"tam": "Có đối tác song hành, được nghỉ ngơi đủ", "tri": "Phát triển lĩnh vực mới (tâm lý/huấn luyện)", "luc": "Sức khỏe ổn định"},
+          "daughter1": {"tam": "Tự tin biểu đạt, không sợ sai", "tri": "Học trong hạnh phúc, tự học tự lập", "luc": "Khỏe mạnh, không tiểu đêm"},
+          "daughter2": {"tam": "Biết điều tiết cảm xúc", "tri": "Phát triển đọc sách, tự lập tư duy", "luc": "Khỏe mạnh, năng lượng dồi dào"}
+        }
+      }
+    ]
+  }
+}

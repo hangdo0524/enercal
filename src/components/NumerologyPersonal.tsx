@@ -660,7 +660,7 @@ function PinnaclesSection({ birthDate, hasDual, actualDate, officialDate }: {
           {/* Actual date pinnacles */}
           <div>
             <p className="text-sm font-medium text-energy-purple mb-2">🟣 Theo ngày thực - Đỉnh cao BÊN TRONG</p>
-            <div className="grid grid-cols-4 gap-2">
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-2">
               {actualPinnacles.map(p => renderPinnacleCard(p, currentActual?.phase === p.phase, 'energy-purple'))}
             </div>
           </div>
@@ -668,13 +668,13 @@ function PinnaclesSection({ birthDate, hasDual, actualDate, officialDate }: {
           {/* Official date pinnacles */}
           <div>
             <p className="text-sm font-medium text-energy-orange mb-2">🟠 Theo ngày khai sinh - Đỉnh cao BÊN NGOÀI</p>
-            <div className="grid grid-cols-4 gap-2">
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-2">
               {officialPinnacles.map(p => renderPinnacleCard(p, currentOfficial?.phase === p.phase, 'energy-orange'))}
             </div>
           </div>
         </div>
       ) : (
-        <div className="grid grid-cols-4 gap-2">
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-2">
           {actualPinnacles.map(p => renderPinnacleCard(p, currentActual?.phase === p.phase, 'indigo'))}
         </div>
       )}
@@ -800,7 +800,7 @@ function PersonalYearSection({ personalYear }: { personalYear: any }) {
             <p className="text-sm font-semibold text-energy-purple mb-3">
               🟣 {personalYear.theoNgaySinhThuc.note || "Theo ngày sinh thực"} - Năng lượng BÊN TRONG
             </p>
-            <div className="grid grid-cols-5 gap-2 mb-3">
+            <div className="grid grid-cols-3 md:grid-cols-5 gap-2 mb-3">
               {getYearEntries(personalYear.theoNgaySinhThuc).map(([year, data]) => (
                 <div key={year} className={`text-center p-2 rounded-lg ${data.laSoChu ? "bg-yellow-50 border-2 border-yellow-300" : "bg-white"}`}>
                   <p className="text-sm text-slate-400">{year}</p>
@@ -827,7 +827,7 @@ function PersonalYearSection({ personalYear }: { personalYear: any }) {
               <p className="text-sm font-semibold text-energy-orange mb-3">
                 🟠 {personalYear.theoNgayKhaiSinh.note || "Theo ngày khai sinh"} - Năng lượng BÊN NGOÀI
               </p>
-              <div className="grid grid-cols-5 gap-2 mb-3">
+              <div className="grid grid-cols-3 md:grid-cols-5 gap-2 mb-3">
                 {getYearEntries(personalYear.theoNgayKhaiSinh).map(([year, data]) => (
                   <div key={year} className={`text-center p-2 rounded-lg ${data.laSoChu ? "bg-yellow-50 border-2 border-yellow-300" : "bg-white"}`}>
                     <p className="text-sm text-slate-400">{year}</p>
@@ -868,7 +868,7 @@ function PersonalYearSection({ personalYear }: { personalYear: any }) {
       <h3 className="text-lg font-bold text-slate-700 mb-4 flex items-center gap-2">
         <span className="text-energy-green">📅</span> Số Năm Cá Nhân (2026-2030)
       </h3>
-      <div className="grid grid-cols-5 gap-2">
+      <div className="grid grid-cols-3 md:grid-cols-5 gap-2">
         {yearEntries.map(([year, data]) => (
           <div key={year} className={`text-center p-3 rounded-lg ${data.laSoChu ? "bg-yellow-50 border-2 border-yellow-300" : "bg-slate-50"}`}>
             <p className="text-sm text-slate-400">{year}</p>
@@ -1020,7 +1020,7 @@ export function NumerologyPersonal({ person }: Props) {
                 <p className="text-sm text-slate-500 mb-2 font-medium">
                   Ngày thực ({coreNumbers.byActualBirthDate?.date}) - Bản chất sâu xa
                 </p>
-                <div className="grid grid-cols-4 gap-2">
+                <div className="grid grid-cols-2 md:grid-cols-4 gap-2">
                   <NumberCard number={actualLife?.number ?? 0} label="Chủ đạo" highlight />
                   <NumberCard number={actualBirthday?.number ?? 0} label="Ngày sinh" />
                   <NumberCard number={coreNumbers.expressionNumber.number} label="Biểu đạt" />
@@ -1063,7 +1063,7 @@ export function NumerologyPersonal({ person }: Props) {
             </div>
           ) : (
             <>
-              <div className="grid grid-cols-4 gap-2">
+              <div className="grid grid-cols-2 md:grid-cols-4 gap-2">
                 <NumberCard number={actualLife?.number ?? 0} label="Chủ đạo" highlight />
                 <NumberCard number={actualBirthday?.number ?? 0} label="Ngày sinh" />
                 <NumberCard number={coreNumbers.expressionNumber.number} label="Biểu đạt" />
@@ -1231,7 +1231,7 @@ export function NumerologyPersonal({ person }: Props) {
                   <p className="text-sm font-semibold text-energy-purple mb-3">
                     🟣 Theo ngày thực ({coreNumbers.challengeNumbers.theoNgaySinhThuc.date}) - Thử thách BÊN TRONG
                   </p>
-                  <div className="grid grid-cols-4 gap-2 mb-3">
+                  <div className="grid grid-cols-2 md:grid-cols-4 gap-2 mb-3">
                     {[1, 2, 3, 4].map(n => {
                       const ch = coreNumbers.challengeNumbers?.theoNgaySinhThuc?.[`thuThach${n}` as keyof typeof coreNumbers.challengeNumbers.theoNgaySinhThuc] as any;
                       return ch ? (
@@ -1259,7 +1259,7 @@ export function NumerologyPersonal({ person }: Props) {
                   <p className="text-sm font-semibold text-energy-orange mb-3">
                     🟠 Theo ngày khai sinh ({coreNumbers.challengeNumbers.theoNgayKhaiSinh.date}) - Thử thách BÊN NGOÀI
                   </p>
-                  <div className="grid grid-cols-4 gap-2 mb-3">
+                  <div className="grid grid-cols-2 md:grid-cols-4 gap-2 mb-3">
                     {[1, 2, 3, 4].map(n => {
                       const ch = coreNumbers.challengeNumbers?.theoNgayKhaiSinh?.[`thuThach${n}` as keyof typeof coreNumbers.challengeNumbers.theoNgayKhaiSinh] as any;
                       return ch ? (
@@ -1291,7 +1291,7 @@ export function NumerologyPersonal({ person }: Props) {
               </div>
             ) : (
               <div>
-                <div className="grid grid-cols-4 gap-2">
+                <div className="grid grid-cols-2 md:grid-cols-4 gap-2">
                   {[1, 2, 3, 4].map(n => {
                     const ch = coreNumbers.challengeNumbers?.[`thuThach${n}` as keyof typeof coreNumbers.challengeNumbers] as any;
                     return ch ? (

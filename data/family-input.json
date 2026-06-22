@@ -1,0 +1,141 @@
+{
+  "metadata": {
+    "createdAt": "2026-06-22",
+    "version": "1.0"
+  },
+  "prompt": {
+    "role": "Nhà phân tích tiềm năng con người theo thần số học — phong cách sáng tạo, tư duy giải quyết vấn đề, thực thi bằng thiết kế bối cảnh (phát huy ưu điểm + điều hòa nhược điểm)",
+    "input": "Dữ liệu 4 thành viên gia đình",
+    "output": {
+      "description": "3 hình mẫu hoàn thiện + lộ trình hiện thực hóa 2026–2030",
+      "criteria": {
+        "total": 9,
+        "pillars": ["Tâm", "Trí", "Lực (Sức khỏe)"],
+        "note": "3 tiêu chí cho mỗi trụ cột"
+      },
+      "requirements": [
+        "Thành viên ưu tiên trong từng giai đoạn 3 tháng",
+        "Đặc điểm tính cách ưu tiên trong mỗi giai đoạn",
+        "Cách mỗi thành viên được ghi nhận bởi người còn lại",
+        "Cách mỗi thành viên hỗ trợ người còn lại",
+        "Cách đánh giá hiệu quả mỗi giai đoạn"
+      ]
+    }
+  },
+  "dataCollection": {
+    "questions": [
+      {
+        "id": 1,
+        "question": "Gia đình có 4 thành viên. Xin cho biết thông tin thành viên thứ 1: Họ tên, Ngày sinh (dd/mm/yyyy), Vai trò trong gia đình (Bố/Mẹ/Con trai/Con gái...)",
+        "answer": {
+          "name": "Lê Xuân Xuyến",
+          "birthDate": {
+            "official": "02/06/1985",
+            "actual": "08/06/1984"
+          },
+          "role": "Bố"
+        }
+      },
+      {
+        "id": 2,
+        "question": "Thông tin thành viên thứ 2: Họ tên, Ngày sinh (dd/mm/yyyy) — nếu có khác biệt giấy tờ/thực tế, ghi cả hai, Vai trò trong gia đình",
+        "answer": {
+          "name": "Đỗ Thị Hằng",
+          "birthDate": "20/12/1985",
+          "role": "Mẹ"
+        }
+      },
+      {
+        "id": 3,
+        "question": "Thông tin thành viên thứ 3: Họ tên, Ngày sinh (dd/mm/yyyy), Vai trò trong gia đình",
+        "answer": {
+          "name": "Lê Phương Thảo",
+          "birthDate": "30/12/2018",
+          "role": "Con gái lớn"
+        }
+      },
+      {
+        "id": 4,
+        "question": "Thông tin thành viên thứ 4 (cuối cùng): Họ tên, Ngày sinh (dd/mm/yyyy), Vai trò trong gia đình",
+        "answer": {
+          "name": "Lê Thảo Vy",
+          "birthDate": "22/10/2020",
+          "role": "Con gái út"
+        }
+      },
+      {
+        "id": 5,
+        "question": "Để phân tích theo 3 trụ cột Tâm – Trí – Lực, xin cho biết mục tiêu gia đình trong giai đoạn 2026–2027: Về TÂM (tinh thần, cảm xúc, kết nối gia đình), Về TRÍ (học tập, phát triển tư duy, sự nghiệp), Về LỰC (sức khỏe, thể chất)",
+        "answer": {
+          "period": "2026-2030 (5 năm)",
+          "tam": "Cả gia đình an vui, mỗi người đạt được trạng thái an yên, cả nhà gắn kết và tương thông",
+          "tri": "Con cái được tiếp cận nền giáo dục tốt, phát triển tối đa tiềm năng của con, học trong hạnh phúc, tự học, tự lập. Mẹ phát triển nghề tâm lý, leadership/relationship manager, bố thành mentor trong ngành xây dựng",
+          "luc": "Sức khỏe toàn diện của cả gia đình tốt lên, khỏe mạnh (nam thì cường tráng, nữ thì dịu dàng khí chất)"
+        }
+      },
+      {
+        "id": 6,
+        "question": "Để hiểu điểm xuất phát, xin cho biết hiện trạng của Bố (Lê Xuân Xuyến): Tâm - Trạng thái tinh thần hiện tại? Điều gì khiến anh vui/lo? Trí - Công việc hiện tại? Điểm mạnh/yếu trong nghề? Lực - Tình trạng sức khỏe? Có vấn đề gì cần lưu ý?",
+        "answer": {
+          "tam": "Trì trệ, có dấu hiệu trầm cảm, không có hứng thú và động lực gì kéo bản thân thoát khỏi vòng luẩn quẩn: đi làm về đến nhà, ôm điện thoại hút thuốc ở ban công đến giờ đi ngủ. Không giao tiếp với vợ con, đến giờ con ngủ mới đứng lên cho con đi ngủ, việc nhà phó mặc cho vợ với giúp việc",
+          "tri": "Làm bộ phận đấu thầu của chủ đầu tư xây dựng, đã làm qua rất nhiều vị trí: chỉ huy trực tiếp tại công trường, làm hồ sơ thanh quyết toán, giờ làm đấu thầu",
+          "luc": "Sức khỏe kém, người gầy, ăn không ngon miệng, ăn kém, ngủ kém, tiểu đêm, ăn không hấp thụ được, không có lực nên ù lì không chịu vận động gì"
+        }
+      },
+      {
+        "id": 7,
+        "question": "Hiện trạng của Mẹ (Đỗ Thị Hằng): Tâm - Trạng thái tinh thần? Điều gì khiến chị vui/lo? Trí - Công việc hiện tại? Điểm mạnh/yếu? Lực - Tình trạng sức khỏe?",
+        "answer": {
+          "tam": "Bình thản, không vui cũng không buồn, không có hứng thú với việc gì ngoài công việc và chăm sóc con cái, làm tròn trách nhiệm trong nhà, chung sống hòa bình với chồng theo kiểu đối tác cùng nuôi con và lo kinh tế",
+          "tri": "Là CPO của công ty IT, công ty nhỏ, dự án ít vì sale kém, năm nay cần phải tự sale nếu không sẽ phải giải thể. Điểm mạnh là phân tích sản phẩm, yếu là sale và kết nối tạo mạng lưới quan hệ",
+          "luc": "Sức khỏe ổn định (đã từng điều trị ung thư vú cuối 2023 đầu 2024), thỉnh thoảng đau nhức trong người, nhưng cũng khỏe nổi bật làm được nhiều việc nặng như người khác"
+        }
+      },
+      {
+        "id": 8,
+        "question": "Hiện trạng của Con gái lớn (Lê Phương Thảo - 7 tuổi): Tâm - Tính cách? Cảm xúc thường ngày? Quan hệ với bố mẹ và em? Trí - Đang học lớp mấy? Học lực? Điểm mạnh/yếu về nhận thức? Lực - Sức khỏe? Thể chất?",
+        "answer": {
+          "tam": "Vui vẻ, nhiều khi dễ cáu bẳn khi không vừa ý, dễ khóc. Yêu bố mẹ, yêu em",
+          "tri": "Chuẩn bị lên lớp 3, hoàn thành xuất sắc chương trình học song ngữ ở lớp. Điểm mạnh: khả năng tiếp thu kiến thức tốt. Điểm yếu: khả năng trình bày trước đám đông, mô tả lại sự vật sự việc; rụt rè trước đám đông và người lạ; nhút nhát, đôi khi tự ti; sợ sai, sợ bị khiển trách; dễ bị áp lực đám đông hoặc khi căng thẳng nên không thể hiện được khả năng",
+          "luc": "Hơi gầy, lực tay chân yếu, tiểu đêm"
+        }
+      },
+      {
+        "id": 9,
+        "question": "Hiện trạng của Con gái út (Lê Thảo Vy - 5 tuổi): Tâm - Tính cách? Cảm xúc? Quan hệ với bố mẹ và chị? Trí - Đang học gì? Khả năng nhận thức? Điểm mạnh/yếu? Lực - Sức khỏe? Thể chất?",
+        "answer": {
+          "tam": "Sống tình cảm, cảm xúc dễ bùng nổ khi có việc không vừa ý. Yêu bố mẹ, yêu chị",
+          "tri": "Chuẩn bị lên lớp 1, khả năng nắm bắt kiến thức mới nhanh. Điểm mạnh: thích đọc sách, yếu: không thích toán, rụt rè trước người lạ",
+          "luc": "Sức khỏe bình thường, thể chất gầy"
+        }
+      },
+      {
+        "id": 10,
+        "question": "Về động lực gia đình - để thiết kế cách các thành viên hỗ trợ nhau: Ai là người kết nối/điều phối chính trong gia đình hiện tại? Hoạt động chung nào gia đình hay làm cùng nhau? (nếu có) Thời gian rảnh trong ngày/tuần của mỗi người như thế nào?",
+        "answer": {
+          "coordinator": "Mẹ",
+          "sharedActivities": [
+            "Các con chơi với nhau",
+            "Mẹ kèm con học",
+            "Thỉnh thoảng bố mẹ chơi cùng con (bố ít hơn mẹ)",
+            "Tối đi ngủ mẹ/bố hỏi chuyện con, con kể chuyện trường lớp (không thường xuyên)",
+            "Mẹ là người dạy con các bài học trong cuộc sống là chủ yếu"
+          ],
+          "weekend": "Cho con ra ngoài chơi, hoặc về thăm ông bà, hoặc các con chơi tự do, bố mẹ làm việc cá nhân"
+        }
+      },
+      {
+        "id": 11,
+        "question": "Về nguồn lực hỗ trợ: Có ông bà/người thân nào hỗ trợ chăm sóc con không? Có giúp việc không? Công việc của giúp việc là gì? Tài chính gia đình hiện tại: ổn định / căng thẳng / dư dả?",
+        "answer": {
+          "grandparents": "Không hỗ trợ",
+          "helper": {
+            "available": true,
+            "tasks": "Dọn dẹp nhà cửa và cơm nước, hỗ trợ đưa đón và tắm giặt cho 2 trẻ nhỏ, hỗ trợ ăn"
+          },
+          "finance": "Ổn định, có dư dả chút ít"
+        }
+      }
+    ]
+  }
+}
