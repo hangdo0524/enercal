@@ -5,6 +5,15 @@ export interface User {
   name: string;
   role: 'user' | 'admin';
   personId: string | null;
+  familyId: string;
+}
+
+interface UserConfig {
+  password: string;
+  name: string;
+  role: 'user' | 'admin';
+  personId: string | null;
+  familyId: string;
 }
 
 interface AuthContextType {
@@ -15,12 +24,32 @@ interface AuthContextType {
   isAdmin: boolean;
 }
 
-const USERS_CONFIG: Record<string, { password: string; name: string; role: 'user' | 'admin'; personId: string | null }> = {
-  xuyenlx: { password: '1985', name: 'Bố', role: 'user', personId: 'father' },
-  hangdt: { password: '260512', name: 'Mẹ', role: 'user', personId: 'mother' },
-  annale: { password: '260512', name: 'Con 1', role: 'user', personId: 'daughter1' },
-  ivyle: { password: '260512', name: 'Con 2', role: 'user', personId: 'daughter2' },
-  admin: { password: '260512', name: 'Admin', role: 'admin', personId: null },
+// ========================================
+// CẤU HÌNH GIA ĐÌNH VÀ USERS
+// Khi thêm gia đình mới, thêm vào đây
+// ========================================
+
+const USERS_CONFIG: Record<string, UserConfig> = {
+  // === Gia đình Lê Xuân Xuyến (family: lexuanxuyen) ===
+  xuyenlx: { password: '1985', name: 'Bố Xuyến', role: 'user', personId: 'father', familyId: 'lexuanxuyen' },
+  hangdt: { password: '260512', name: 'Mẹ Hằng', role: 'user', personId: 'mother', familyId: 'lexuanxuyen' },
+  annale: { password: '260512', name: 'Phương Thảo', role: 'user', personId: 'daughter1', familyId: 'lexuanxuyen' },
+  ivyle: { password: '260512', name: 'Thảo Vy', role: 'user', personId: 'daughter2', familyId: 'lexuanxuyen' },
+
+  // === Admin (có thể xem tất cả) ===
+  admin: { password: '260512', name: 'Admin', role: 'admin', personId: null, familyId: 'lexuanxuyen' },
+
+  // === Thêm gia đình mới ở đây ===
+  // Ví dụ:
+  // nguyenvana: { password: '1234', name: 'Nguyễn Văn A', role: 'user', personId: 'father', familyId: 'nguyenvana' },
+  // nguyenthib: { password: '1234', name: 'Nguyễn Thị B', role: 'user', personId: 'mother', familyId: 'nguyenvana' },
+};
+
+// Danh sách các gia đình và file data tương ứng
+export const FAMILY_DATA_FILES: Record<string, string> = {
+  'lexuanxuyen': 'numerology-analysis.json',
+  // Thêm gia đình mới:
+  // 'nguyenvana': 'numerology-nguyenvana.json',
 };
 
 const AUTH_STORAGE_KEY = 'enercal_auth_user';
@@ -39,6 +68,7 @@ export function AuthProvider({ children }: { children: ReactNode }) {
         name: config.name,
         role: config.role,
         personId: config.personId,
+        familyId: config.familyId,
       });
     }
   }, []);
@@ -51,6 +81,7 @@ export function AuthProvider({ children }: { children: ReactNode }) {
         name: config.name,
         role: config.role,
         personId: config.personId,
+        familyId: config.familyId,
       };
       setUser(newUser);
       localStorage.setItem(AUTH_STORAGE_KEY, userId);
@@ -94,5 +125,28 @@ export function getUsersList() {
       id,
       name: config.name,
       personId: config.personId,
+      familyId: config.familyId,
     }));
+}
+
+// Lấy danh sách user theo gia đình
+export function getUsersByFamily(familyId: string) {
+  return Object.entries(USERS_CONFIG)
+    .filter(([id, config]) => config.familyId === familyId && id !== 'admin')
+    .map(([id, config]) => ({
+      id,
+      name: config.name,
+      personId: config.personId,
+    }));
+}
+
+// Lấy danh sách tất cả các gia đình
+export function getFamiliesList() {
+  const families = new Set<string>();
+  Object.values(USERS_CONFIG).forEach(config => {
+    if (config.role !== 'admin') {
+      families.add(config.familyId);
+    }
+  });
+  return Array.from(families);
 }

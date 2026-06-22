@@ -259,3 +259,31 @@ export function getNumerologyProfiles() {
 export function getRawNumerologyData() {
   return rawData;
 }
+
+// ========================================
+// HƯỚNG DẪN THÊM GIA ĐÌNH MỚI
+// ========================================
+//
+// 1. Tạo file JSON mới: src/data/numerology-{familyId}.json
+//    (Copy cấu trúc từ numerology-analysis.json)
+//
+// 2. Import file mới ở đầu file này:
+//    import familyXData from "./numerology-familyx.json";
+//
+// 3. Tạo map DATA_BY_FAMILY:
+//    const DATA_BY_FAMILY: Record<string, any> = {
+//      'lexuanxuyen': rawData,
+//      'familyx': familyXData,
+//    };
+//
+// 4. Cập nhật các function để nhận familyId:
+//    export function loadNumerologyData(familyId = 'lexuanxuyen') {
+//      const raw = DATA_BY_FAMILY[familyId] || rawData;
+//      // ... rest of function
+//    }
+//
+// 5. Cập nhật AuthContext.tsx:
+//    - Thêm users mới với familyId tương ứng
+//    - Thêm vào FAMILY_DATA_FILES
+//
+// ========================================
