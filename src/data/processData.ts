@@ -18,20 +18,20 @@ export function processRawProfile(profile: RawProfile): ProcessedProfile {
     const dailyValues = dayData.dailyValues;
     const hourlyGridRaw = dayData.hourlyGrid;
 
-    // Find main task (from mainTheme or highest daily value)
+    // Find main task based on highest DAILY value (not final)
     let mainTask = dayData.mainTheme || "";
     if (!mainTask) {
-      let maxPct = 0;
+      let maxDailyPct = 0;
       for (const task of ENERGY_TASKS) {
         const val = dailyValues[task] ?? 0;
-        if (val > maxPct) {
-          maxPct = val;
+        if (val > maxDailyPct) {
+          maxDailyPct = val;
           mainTask = `Ngày ${task}`;
         }
       }
     }
 
-    // Process hourly grid
+    // Process hourly grid and find topPct (highest FINAL = daily + hourly)
     let topPct = 0;
     const processedHourlyGrid: ProcessedHourlySlot[] = TIME_SLOTS.map(
       (timeSlot, slotIndex) => {
